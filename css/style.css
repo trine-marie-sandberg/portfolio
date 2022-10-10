@@ -73,6 +73,8 @@ aside {
 }
 
 .skills {
+    display: flex;
+    justify-content: center;
     position: relative;
     min-height: 50vh;
     width: 100%;
@@ -80,11 +82,15 @@ aside {
 
 .skills-creative {
         box-shadow: inset 6px 6px 10px rgb(63, 152, 186);
-        border-radius: 30% 30% 0 30%;
-        padding: 5vw;
+        border-radius: 20% 20% 0 20%;
+        padding: 10vw 5vw;
         position: absolute;
         bottom: 0;
         right: 0;
+}
+
+.figma-icon {
+    padding-left: 0;
 }
 
 /* BOTTOM */
