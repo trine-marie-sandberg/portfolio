@@ -3,6 +3,16 @@ body {
     margin: 0;
 }
 
+h1, h2, p {
+    color: #ffff;
+}
+
+.skill-icon {
+    color: rgb(207, 218, 55);
+    font-size: 2rem;
+    padding: 10px;
+}
+
 /* TOP */
 
 .flex-wrap {
