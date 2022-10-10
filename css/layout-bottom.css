@@ -2,4 +2,16 @@
 .bottom-content-wrap {
     min-height: 100px;
     box-shadow: 0 -20px 20px -20px rgb(63, 152, 186);
+    padding-top: 3rem;
+}
+
+.project {
+    padding-top: 10px;
+    height: 20vh;
+    width: 20vw;
+    background-size: cover;
+}
+
+.project1 {
+    background-image: url(/img/mhpb-sample.jpg);
 }
