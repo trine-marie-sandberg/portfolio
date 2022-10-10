@@ -18,6 +18,7 @@ body {
     width: 100%;
     max-width: 150px;
     border-radius: 50%;
+    border: 2px solid #ffff;
 }
 
 .welcome-text {
@@ -65,13 +66,22 @@ aside {
 .skills {
     width: 30%;
     min-height: 100px;
-    background-color: #48485a;
+}
+
+.skills-creative {
+        box-shadow: inset 6px 6px 10px rgb(63, 152, 186);
+        border-radius: 30% 30% 0 30%;
+        padding: 5vw;
+        position: absolute;
+        bottom: 100px;
+        right: 0;
 }
 
 /* BOTTOM */
 .bottom-content-wrap {
+    position: relative;
     min-height: 100px;
-    box-shadow: 0 -8px 8px -8px rgb(63, 152, 186);
+    box-shadow: 0 -20px 20px -20px rgb(63, 152, 186);
 }
 
 @media(max-width: 700px) {
