@@ -36,6 +36,22 @@ a {
     .top-content-wrap {
         flex-direction: column;
     }
+    
+    aside {
+        padding: 5px;
+    }
+
+    .skill-icon {
+        padding: 5px;
+    }
+
+    .git, .link {
+        font-size: 2rem;
+    }
+
+    .skills-creative {
+        padding: 10px 20px;
+    }
 }
 
 @media(min-width: 1400px) {

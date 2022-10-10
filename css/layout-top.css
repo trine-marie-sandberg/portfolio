@@ -52,6 +52,7 @@ aside {
     left: -60px;
 }
 
+/* SKILLS */
 .skills {
     display: flex;
     justify-content: center;
@@ -67,8 +68,4 @@ aside {
         position: absolute;
         bottom: 0;
         right: 0;
-}
-
-.figma-icon {
-    padding-left: 0;
 }
