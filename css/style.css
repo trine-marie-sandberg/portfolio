@@ -8,8 +8,6 @@ h1, h2, p {
 }
 
 .skill-icon {
-    color: rgb(207, 218, 55);
-    font-size: 48px;
     padding: 10px;
 }
 
@@ -19,8 +17,14 @@ h1, h2, p {
     display: flex;
 }
 
+.link-git-wrap {
+    display: flex;
+    flex-direction: column;
+}
+
 .top-content-wrap {
     display: flex;
+    width: 100vw;
 }
 
 .profile-img {
@@ -47,13 +51,9 @@ aside {
     box-shadow: inset -6px -6px 6px rgba(63, 152, 186, 50%);
     color: white;
     background-color: #0D0D0F;
-    width: fit-content;
     padding: 10px;
-    height: max-content;
     display: flex;
-    flex-direction: column;
-    padding-top: 100%;
-    
+    align-items: flex-end;
 }
 
 .git, .link {
@@ -64,7 +64,6 @@ aside {
 .personalia {
     position: relative;
     color: #ffff;
-    width: fit-content;
     padding: 5vw;
 }
 
@@ -74,8 +73,9 @@ aside {
 }
 
 .skills {
-    width: 30%;
-    min-height: 100px;
+    position: relative;
+    min-height: 50vh;
+    width: 100%;
 }
 
 .skills-creative {
@@ -83,13 +83,12 @@ aside {
         border-radius: 30% 30% 0 30%;
         padding: 5vw;
         position: absolute;
-        bottom: 100px;
+        bottom: 0;
         right: 0;
 }
 
 /* BOTTOM */
 .bottom-content-wrap {
-    position: relative;
     min-height: 100px;
     box-shadow: 0 -20px 20px -20px rgb(63, 152, 186);
 }
