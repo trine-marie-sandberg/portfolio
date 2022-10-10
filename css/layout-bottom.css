@@ -1,0 +1,5 @@
+/* BOTTOM */
+.bottom-content-wrap {
+    min-height: 100px;
+    box-shadow: 0 -20px 20px -20px rgb(63, 152, 186);
+}

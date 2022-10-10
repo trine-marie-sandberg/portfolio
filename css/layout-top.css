@@ -1,0 +1,74 @@
+/* GENERAL */
+.flex-wrap {
+    display: flex;
+}
+
+.top-content-wrap {
+    display: flex;
+    width: 100vw;
+}
+
+/* ASIDE */
+aside {
+    box-shadow: inset -6px -6px 6px rgba(63, 152, 186, 50%);
+    color: white;
+    background-color: #0D0D0F;
+    padding: 1rem;
+    display: flex;
+    align-items: flex-end;
+}
+
+.link-git-wrap {
+    display: flex;
+    flex-direction: column;
+}
+
+.git, .link {
+    padding: 10px;
+    font-size: 3rem;
+}
+
+/* PERSONALIA */
+.personalia {
+    position: relative;
+    color: #ffff;
+    padding: 5vw;
+}
+
+.personalia-text-wrapper {
+    margin-top: 50%;
+    max-width: 500px;
+}
+
+.welcome-text {
+    padding-left: 30px;
+}
+
+.img-hi-wrap {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    top: 50px;
+    left: -60px;
+}
+
+.skills {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    min-height: 50vh;
+    width: 100%;
+}
+
+.skills-creative {
+        box-shadow: inset 6px 6px 10px rgb(63, 152, 186);
+        border-radius: 20% 20% 0 20%;
+        padding: 10vw 5vw;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+}
+
+.figma-icon {
+    padding-left: 0;
+}
