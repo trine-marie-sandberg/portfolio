@@ -1,17 +1,38 @@
-/* BOTTOM */
+/* GENERAL */
 .bottom-content-wrap {
     min-height: 100px;
     box-shadow: 0 -20px 20px -20px rgb(63, 152, 186);
-    padding-top: 3rem;
+    padding-top: 8vh;
+    padding-bottom: 8vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgb(20, 23, 27);
 }
 
+/* CARDS */
 .project {
+    padding: 10px;
+}
+
+.project-card {
+    border-radius: 20px;
     padding-top: 10px;
-    height: 20vh;
-    width: 20vw;
+    width: 30vw;
+    min-width: 300px;
+    height: 20vw;
+    min-height: 150px;
     background-size: cover;
 }
 
 .project1 {
     background-image: url(/img/mhpb-sample.jpg);
+}
+
+.project2 {
+    background-image: url(/img/gamehub-sample.jpg);
+}
+
+.project3 {
+    background-image: url(/img/csm-sample.jpg);
 }
