@@ -18,15 +18,22 @@
     color: #ffff;
     background-color: black;
     border: 1px solid rgb(63, 152, 186);
+    /* make sure project cards are equal size */
+    flex: 0 1 0;
+}
+
+/* make sure project card is pushed to bottom */
+.project :is(h2) {
+    height: 50px;
 }
 
 .project-card {
     border-radius: 20px;
     padding-top: 10px;
     width: 30vw;
-    min-width: 300px;
+    min-width: 200px;
     height: 20vw;
-    min-height: 150px;
+    min-height: 100px;
     background-size: cover;
 }
 
