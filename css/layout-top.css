@@ -28,6 +28,10 @@ aside {
     font-size: 3rem;
 }
 
+#git-profile, #linkedin-profile {
+    color: #ffff;
+}
+
 /* PERSONALIA */
 .personalia {
     position: relative;
