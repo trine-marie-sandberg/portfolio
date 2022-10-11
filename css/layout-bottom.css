@@ -32,12 +32,15 @@
 
 .project1 {
     background-image: url(/img/mhpb-sample.jpg);
+    border: 1px solid rgb(44, 44, 44);
 }
 
 .project2 {
     background-image: url(/img/gamehub-sample.jpg);
+    border: 1px solid rgb(44, 44, 44);
 }
 
 .project3 {
     background-image: url(/img/csm-sample.jpg);
+    border: 1px solid rgb(44, 44, 44);
 }
