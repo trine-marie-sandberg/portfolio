@@ -13,6 +13,11 @@
 /* CARDS */
 .project {
     padding: 10px;
+    margin: 5px;
+    border-radius: 20px;
+    color: #ffff;
+    background-color: black;
+    border: 1px solid rgb(63, 152, 186);
 }
 
 .project-card {
