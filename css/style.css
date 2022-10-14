@@ -42,6 +42,15 @@ a {
         padding: 0 0;
         align-self: flex-start;
     }
+
+    .project-icons {
+        font-size: 1.5rem;
+        padding: 5px;
+    }
+
+    .project-text-icons-wrap :is(h2) {
+        font-size: 1rem;
+    }
 }
 
 @media(max-width: 700px) {
