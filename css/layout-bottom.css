@@ -16,7 +16,7 @@
 .bottom-content-wrap {
     margin: 0 auto;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minMax(240px, 1fr));
+    grid-template-columns: repeat(auto-fit, minMax(260px, 1fr));
     max-width: 1300px;
 }
 
