@@ -8,7 +8,8 @@
 }
 
 .menu-btn {
-    background-color: #1B1B1D;
+    background-color: #14141a;
+    background-color: none;
     border: none;
     display: flex;
     cursor: pointer;
@@ -16,7 +17,7 @@
 
 .btn-sircle {
     background-color: #0D0D0F;
-    border: solid 1px #1E404D;
+    border: solid 1px #ffff;
     border-radius: 50%;
     height: 25px;
     width: 25px;
@@ -29,7 +30,6 @@
 
 /* PROJECTS btn */
 .projects-btn {
-    background-color: #0D0D0F;
     border: 1px solid #ffff;
     border-radius: 25px;
     display: flex;
