@@ -13,6 +13,8 @@
 
 /* CARDS */
 .project {
+    display: flex;
+    align-items: flex-end;
     padding: 10px;
     margin: 10px;
     border-radius: 20px;
@@ -21,12 +23,26 @@
     border: 1px solid rgb(63, 152, 186);
 }
 
-.project-text-wrap {
+.project-wrap {
+    border: 1px dotted salmon;
+    height: 100%;
     display: flex;
     flex-direction: column;
 }
 
+.project-icons-wrap {
+    border: 2px darkcyan double;
+}
+
+.project-text-wrap {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    border: 1px dotted rgb(114, 250, 143);
+}
+
 .project-sample-img {
+    margin: 10px 0;
     height: auto;
     width: 100%;
     border-radius: 20px;
