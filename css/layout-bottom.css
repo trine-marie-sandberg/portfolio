@@ -6,17 +6,15 @@
 
 #bottom-header {
     margin: 0 auto;
-    height: 15vh;
-    padding: 10px;
-    margin-left: 15px;
     font-size: 2rem;
-    transform: rotateZ(358deg);
+    height: 10vw;
+    display: flex;
+    align-items: center;
+    padding: 3rem 0 2rem 1rem;
 }
 
 .bottom-content-wrap {
     margin: 0 auto;
-    /* padding-top: 8vh;
-    padding-bottom: 8vh; */
     display: grid;
     grid-template-columns: repeat(auto-fit, minMax(240px, 1fr));
     max-width: 1300px;
