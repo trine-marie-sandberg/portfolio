@@ -30,6 +30,7 @@
 
 /* PROJECTS btn */
 .projects-btn {
+    background-color: #0D0D0F;
     border: 1px solid #ffff;
     border-radius: 25px;
     display: flex;
