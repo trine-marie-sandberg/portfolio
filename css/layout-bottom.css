@@ -32,13 +32,18 @@
 
 .project-icons-wrap {
     border: 2px darkcyan double;
+    justify-self: flex-end;
+}
+
+.project-icons {
+    font-size: 2rem;
+    padding-right: 10px;
 }
 
 .project-text-wrap {
     display: flex;
     flex-direction: column;
     height: 100%;
-    border: 1px dotted rgb(114, 250, 143);
 }
 
 .project-sample-img {
