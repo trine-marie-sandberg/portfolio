@@ -37,7 +37,7 @@ aside {
 /* PERSONALIA */
 .personalia {
     color: #ffff;
-    padding: 0 10px 0 5vw;
+    padding: 0 10px 0 5vh;
     display: flex;
     flex-direction: column;
 }
