@@ -37,18 +37,26 @@ a {
 }
 
 /* TABLET */
-@media(max-width: 1200px) {
-
-    .skill-icon {
-        max-width: 40px;
-    }
-}
-
-@media(max-width: 950px) {
+@media(max-width: 1500px) {
 
     .top-content-wrap {
         flex-direction: column;
     }
+
+    .top-content-wrap {
+        height: 100vh;
+    }
+
+    .skill-icon {
+        max-width: 40px;
+    }
+
+    .skills-c {
+        padding: 8vw 4vw;
+    }
+}
+
+@media(max-width: 950px) {
 
     .personalia {
         padding: 10px;
@@ -86,10 +94,6 @@ a {
 /* MOBILE */
 @media(max-width: 500px) {
 
-    .top-content-wrap {
-        height: 100vh;
-    }
-
     aside {
         padding: 0 0;
     }
@@ -107,17 +111,12 @@ a {
         font-size: 1rem;
     }
 
+    .personalia {
+        margin-top: 3vh;
+    }
+
     .personalia-text-wrapper {
         font-size: 14px;
-    }
-
-    .skills {
-        flex-direction: column;
-    }
-
-    .skils-technical {
-        align-self: flex-start;
-        padding: 0;
     }
 
     .projects-btn {

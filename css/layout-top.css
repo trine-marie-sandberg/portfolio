@@ -6,6 +6,7 @@
 .top-content-wrap {
     display: flex;
     width: 100vw;
+    height: 90vh;
     position: relative;
 }
 
@@ -36,12 +37,14 @@ aside {
 /* PERSONALIA */
 .personalia {
     color: #ffff;
-    padding: 2vw 10px 0 7vw;
+    padding: 0 10px 0 5vw;
+    display: flex;
+    flex-direction: column;
 }
 
 .personalia-text-wrapper {
-    margin-top: 50%;
-    max-width: 900px;
+    margin-top: 30%;
+    max-width: 700px;
 }
 
 .welcome-text {
@@ -57,23 +60,30 @@ aside {
 }
 
 /* SKILLS */
-.skills {
+/* .skills {
     display: flex;
     width: 100%;
     justify-content: end;
-}
+} */
 
-.skils-technical {
+/* .skils-technical {
     align-self: center;
     border: solid 1px green;
     margin: 0 14.5vw 30vh 0;
-}
+} */
 
-.skills-creative {
-        box-shadow: inset 6px 6px 10px rgb(63, 152, 186);
-        border-radius: 20% 20% 0 20%;
-        padding: 10vw 4vw;
+.skills-wrap {
         position: absolute;
         bottom: 0;
         right: 0;
+}
+
+.skills-c {
+    box-shadow: inset 6px 6px 10px rgb(63, 152, 186);
+    border-radius: 20% 20% 0 20%;
+    padding: 14vh 6vw;
+}
+
+.skills-t {
+    padding: 10px 0 20px 6vw;
 }

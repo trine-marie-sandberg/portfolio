@@ -29,6 +29,10 @@
 }
 
 /* PROJECTS btn */
+.projects-link {
+    width: fit-content;
+}
+
 .projects-btn {
     background-color: #0D0D0F;
     border: 1px solid #ffff;
