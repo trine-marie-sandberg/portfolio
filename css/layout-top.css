@@ -43,7 +43,7 @@ aside {
 }
 
 .personalia-text-wrapper {
-    margin-top: 30%;
+    margin-top: 25vh;
     max-width: 700px;
 }
 
@@ -60,30 +60,16 @@ aside {
 }
 
 /* SKILLS */
-/* .skills {
-    display: flex;
-    width: 100%;
-    justify-content: end;
-} */
-
-/* .skils-technical {
-    align-self: center;
-    border: solid 1px green;
-    margin: 0 14.5vw 30vh 0;
-} */
-
 .skills-wrap {
         position: absolute;
         bottom: 0;
         right: 0;
+        box-shadow: inset 6px 6px 10px rgb(63, 152, 186);
+        border-radius: 30% 30% 0 30%;
+        padding: 10vh 6vw;
 }
 
-.skills-c {
-    box-shadow: inset 6px 6px 10px rgb(63, 152, 186);
-    border-radius: 20% 20% 0 20%;
-    padding: 14vh 6vw;
-}
-
-.skills-t {
-    padding: 10px 0 20px 6vw;
+.skills-c, .skills-t {
+    margin: 0;
+    padding: 5px;
 }

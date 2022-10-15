@@ -39,6 +39,10 @@ a {
 /* TABLET */
 @media(max-width: 1500px) {
 
+    .personalia-text-wrapper {
+        margin-top: 18vh;
+    }
+
     .top-content-wrap {
         flex-direction: column;
     }
@@ -51,8 +55,12 @@ a {
         max-width: 40px;
     }
 
-    .skills-c {
-        padding: 8vw 4vw;
+    .skills-wrap {
+        padding: 8vh 6vw;
+    }
+
+    h2 {
+        font-size: 1.4rem;
     }
 }
 

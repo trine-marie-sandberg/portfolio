@@ -47,8 +47,7 @@
 }
 
 .projects-btn-text {
-    font-family: quiche-text, sans-serif;
-    font-size: 1.5rem;
+    font-weight: 200;
     margin: 0;
     margin-right: 10px;
 }
@@ -56,4 +55,5 @@
 .stars {
     height: auto;
     width: 100%;
+    min-width: 20px;
 }
