@@ -37,14 +37,21 @@ a {
 }
 
 /* TABLET */
+@media(max-width: 1200px) {
+
+    .skill-icon {
+        max-width: 40px;
+    }
+}
+
 @media(max-width: 950px) {
-    .skills-creative {
-        padding: 10px 5px;
+
+    .top-content-wrap {
+        flex-direction: column;
     }
 
-    .skils-technical {
-        padding: 0 0;
-        align-self: flex-start;
+    .personalia {
+        padding: 10px;
     }
 
     .project-icons {
@@ -57,27 +64,22 @@ a {
     }
 }
 
-@media(max-width: 700px) {
+@media(max-width: 830px) {
 
-    h2 {
-        font-size: 1rem;
-    }
-
-    .top-content-wrap {
-        flex-direction: column;
-    }
-    
     aside {
         padding: 5px;
         align-items: center;
     }
 
-    .skill-icon {
-        padding: 5px;
-    }
-
     .git, .link {
         font-size: 2rem;
+    }
+}
+
+@media(max-width: 700px) {
+
+    h2 {
+        font-size: 1rem;
     }
 }
 
@@ -111,10 +113,6 @@ a {
 
     .skills {
         flex-direction: column;
-    }
-
-    .skills-creative {
-        padding: 15px 5px;
     }
 
     .skils-technical {
