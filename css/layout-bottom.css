@@ -65,6 +65,7 @@
     margin: 10px 0;
     height: auto;
     width: 100%;
+    max-height: 50vh;
     border-radius: 20px;
     border: 1px solid rgb(44, 44, 44);
     cursor: pointer;
@@ -83,11 +84,15 @@
 }
 
 .image-modal-container {
-    margin: 0 10vw;
+    margin: 0 10vw 10vh 10vw;
     display: none;
     z-index: 1;
     position: fixed;
-    top: 20vh;
+    top: 40px;
+}
+
+.modal-img {
+    max-height: 90vh;
 }
 
 .cansel-x {
