@@ -99,8 +99,23 @@ a {
     }
 }
 
+@media(max-width: 650px) {
+
+    .skills-wrap {
+        padding: 4vw;
+    }
+}
+
 /* MOBILE */
-@media(max-width: 500px) {
+@media(max-width: 510px) {
+
+    p {
+        word-break: break-word;
+    }
+
+    .top-content-wrap {
+        height: 100%;
+    }
 
     aside {
         padding: 0 0;
@@ -125,6 +140,7 @@ a {
 
     .personalia-text-wrapper {
         font-size: 14px;
+        margin-top: 80px;
     }
 
     .projects-btn {
@@ -132,11 +148,21 @@ a {
     }
 
     .projects-btn-text {
-        font-size: 15px;
+        font-size: 10px;
     }
 
     .stars {
-        width: 25px;
+        width: 10px;
+    }
+
+    .skills-wrap {
+        box-shadow: none;
+        padding: 0;
+        position: relative;
+    }
+
+    .skill-icon {
+        max-width: 25px;
     }
 }
 
