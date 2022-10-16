@@ -15,6 +15,7 @@
 
 .bottom-content-wrap {
     margin: 0 auto;
+    padding-bottom: 5vh;
     display: grid;
     grid-template-columns: repeat(auto-fit, minMax(260px, 1fr));
     max-width: 1300px;
