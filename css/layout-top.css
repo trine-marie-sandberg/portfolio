@@ -34,6 +34,10 @@ aside {
     color: #ffff;
 }
 
+#git-profile:hover, #linkedin-profile:hover {
+    color: rgb(154, 208, 230);
+}
+
 /* PERSONALIA */
 .personalia {
     color: #ffff;
