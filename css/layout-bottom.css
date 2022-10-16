@@ -76,3 +76,29 @@
 .project-icons:hover {
     color: rgb(154, 208, 230);
 }
+
+.image-modal-container {
+    display: none;
+    z-index: 1;
+    position: fixed;
+    bottom: 0px;
+}
+
+.cansel-x {
+    color: #928d8d;
+    background-color: #ffff;
+    border: 1px solid #928d8d;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 2rem;
+    height: fit-content;
+    position: absolute;
+    right: 0;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.cansel-x:hover {
+    border: 1px solid #373737;
+    color: #373737;
+}

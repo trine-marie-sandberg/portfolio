@@ -36,3 +36,8 @@ a {
     border-radius: 50%;
     border: 2px solid #ffff;
 }
+
+.auto-img {
+    height: auto;
+    width: 100%;
+}
