@@ -3,6 +3,3 @@
   //IMPORT imageModal
   let targetImages = document.querySelectorAll(".project-sample-img");
   imageModal(targetImages);
-
-  console.log("hi")
-  
