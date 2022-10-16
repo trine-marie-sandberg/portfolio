@@ -67,6 +67,11 @@
     width: 100%;
     border-radius: 20px;
     border: 1px solid rgb(44, 44, 44);
+    cursor: pointer;
+}
+
+.project-sample-img:hover {
+    box-shadow: 3px 3px 10px rgb(31, 76, 94);
 }
 
 .card-header:hover {
@@ -78,16 +83,17 @@
 }
 
 .image-modal-container {
+    margin: 0 10vw;
     display: none;
     z-index: 1;
     position: fixed;
-    bottom: 0px;
+    top: 20vh;
 }
 
 .cansel-x {
-    color: #928d8d;
-    background-color: #ffff;
-    border: 1px solid #928d8d;
+    color: rgb(63, 152, 186);
+    background-color: #0D0D0F;
+    border: 1px solid rgb(63, 152, 186);
     border-radius: 5px;
     padding: 10px;
     font-size: 2rem;
@@ -99,6 +105,6 @@
 }
 
 .cansel-x:hover {
-    border: 1px solid #373737;
-    color: #373737;
+    border: 1px solid rgb(154, 208, 230);
+    color: rgb(154, 208, 230);
 }
