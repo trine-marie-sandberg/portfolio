@@ -12,12 +12,24 @@
 
 /* ASIDE */
 aside {
-    padding: 1rem;
-    box-shadow: inset -6px -6px 6px rgba(63, 152, 186, 50%);
-    color: white;
+    padding: 2rem;
+    box-shadow: 6px 6px 20px rgba(63, 152, 186, 50%);
+    border: 1px solid #3987a5;
+    color: #3987a5;
+    border-radius: 10%;
+    margin: 1rem;
+    /* border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 50%; */
     background-color: #0D0D0F;
     display: flex;
     align-items: flex-end;
+    height: fit-content;
+}
+
+.aside-deco-container {
+    background-image: linear-gradient(to right, #14141a 30%,black 55%, #14141a 30%);
+    height: 70vh;
 }
 
 .link-git-wrap {
@@ -31,7 +43,7 @@ aside {
 }
 
 #git-profile, #linkedin-profile {
-    color: #ffff;
+    color: #3987a5;
 }
 
 #git-profile:hover, #linkedin-profile:hover {
@@ -41,7 +53,7 @@ aside {
 /* PERSONALIA */
 .personalia {
     color: #ffff;
-    padding: 0 10px 0 5vh;
+    /* padding: 0 10px 0 5vh; */
     display: flex;
     flex-direction: column;
 }
@@ -51,17 +63,17 @@ aside {
     max-width: 700px;
 }
 
-.welcome-text {
+/* .welcome-text {
     padding-left: 30px;
-}
+} */
 
-.img-hi-wrap {
+/* .img-hi-wrap {
     position: absolute;
     display: flex;
     align-items: center;
     top: 50px;
     left: -60px;
-}
+} */
 
 /* SKILLS */
 .skills-wrap {
