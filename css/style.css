@@ -31,10 +31,10 @@ a {
 }
 
 .profile-img {
+    height: auto;
+    width: 150px;
     border-radius: 50%;
     border: 2px solid #ffff;
-    height: auto;
-    max-width: 20vw;
 }
 
 .auto-img {

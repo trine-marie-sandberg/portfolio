@@ -1,0 +1,147 @@
+/* DESKTOP */
+@media(min-width: 1700px) {
+
+    aside {
+        padding: 2rem;
+    }
+
+    .profile-img {
+        width: 200px !important;
+    }
+
+    .skills-wrap {
+        padding: 15vh 9vw;
+    }
+
+    .personalia-text-wrapper {
+        margin-top: 28vh;
+        max-width: 800px;
+    }
+}
+
+/* TABLET */
+@media(max-width: 1500px) {
+
+    .top-content-wrap {
+        flex-direction: column;
+    }
+
+    .top-content-wrap {
+        height: 100vh;
+    }
+
+    .skill-icon {
+        max-width: 40px;
+    }
+
+    .skills-wrap {
+        padding: 8vh 6vw;
+    }
+
+    h2 {
+        font-size: 1.4rem;
+    }
+}
+
+@media(max-width: 950px) {
+
+    .personalia {
+        padding-left: 30px;
+    }
+
+    .project-icons {
+        font-size: 1.5rem;
+        padding: 5px;
+    }
+
+    .project-text-icons-wrap :is(h2) {
+        font-size: 1rem;
+    }
+
+    .skills-wrap {
+        padding: 5vw;
+    }
+}
+
+@media(max-width: 830px) {
+
+    aside {
+        padding: 5px;
+        align-items: center;
+    }
+
+    .git, .link {
+        font-size: 2rem;
+    }
+}
+
+@media(max-width: 700px) {
+
+    h2 {
+        font-size: 1rem;
+    }
+
+    .profile-img {
+        max-width: 100px;
+    }
+
+    .skills-wrap {
+        padding: 3vw;
+    }
+
+    .skill-icon {
+        max-width: 25px;
+    }
+}
+
+/* MOBILE */
+@media(max-width: 510px) {
+
+    p {
+        word-break: break-word;
+    }
+
+    .top-content-wrap {
+        height: 100%;
+    }
+
+    aside {
+        padding: 0 0;
+    }
+
+    .img-hi-wrap {
+        left: -40px;
+        top: 20px;
+    }
+
+    .profile-img {
+        width: 90px;
+    }
+
+    .welcome-text {
+        font-size: 1rem;
+    }
+
+    .personalia-text-wrapper {
+        font-size: 14px;
+        margin-top: 120px;
+    }
+
+    .projects-btn {
+        margin: 10px 5px;
+    }
+
+    .projects-btn-text {
+        font-size: 10px;
+    }
+
+    .stars {
+        width: 10px;
+    }
+
+    .skills-wrap {
+        box-shadow: none;
+        padding: 0;
+        position: relative;
+    }
+}
