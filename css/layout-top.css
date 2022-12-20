@@ -28,8 +28,37 @@ aside {
 }
 
 .aside-deco-container {
+    flex-direction: column;
     background-image: linear-gradient(to right, #14141a 30%,black 55%, #14141a 30%);
     height: 70vh;
+}
+
+.aside-deco-bottom-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    height: 20px;
+    padding-top: 45vh;
+}
+
+.deco-sidewalk {
+    border: solid #14141a 1px;
+    border-radius: 10px;
+    position: absolute;
+    padding: 10px;
+    height: 10vh;
+    width: 170px;
+    background-image: linear-gradient(105deg, #14141a71 10%, rgba(0, 0, 0, 0.527) 90%);
+}
+
+.aside-deco-bottom {
+    align-self: flex-end;
+    height: 50px;
+    width: 150px;
+    border-radius: 50%;
+    padding: 5px;
+    border: 4px solid rgba(0, 0, 0, 0.527);
+    background-image: linear-gradient(105deg, #14141a,black, #14141a, black, #14141a, black, #14141a, black, #14141a, black, #14141a,black, #14141a, black, #14141a, black, #14141a, black, #14141a, black, #14141a,black, #14141a, black);
 }
 
 .link-git-wrap {

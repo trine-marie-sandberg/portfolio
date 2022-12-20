@@ -9,6 +9,7 @@ html {
 
 body {
     background-color: #14141a;
+    /* background-image: linear-gradient(to bottom right, #14141a 40%,black, #14141a, black, #14141a, black, #14141a, black, #14141a, black); */
     margin: 0;
 }
 
