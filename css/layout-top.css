@@ -6,7 +6,7 @@
 .top-content-wrap {
     display: flex;
     width: 100vw;
-    height: 90vh;
+    height: 100vh;
     position: relative;
     background-image: linear-gradient(110deg, #14141a 30%,black 55%, #14141a 30%);
 
@@ -20,9 +20,6 @@
     color: #3987a5;
     border-radius: 10%;
     margin: 1rem;
-    /* border-top-right-radius: 50%;
-    border-bottom-right-radius: 50%;
-    border-bottom-left-radius: 50%; */
     background-color: #0D0D0F;
     display: flex;
     align-items: flex-end;
@@ -32,7 +29,9 @@
 .aside-deco-container {
     flex-direction: column;
     background-image: linear-gradient(to right, #14141a 30%,black 55%, #14141a 30%);
-    height: 90vh;
+    height: 100vh;
+    border-bottom: dashed 7px #3986a53d;
+    border-radius: 5px;
 }
 
 /* .aside-deco-bottom-wrap {
@@ -55,14 +54,14 @@
     background-image: linear-gradient(105deg, #14141a28 10%, rgba(0, 0, 0, 0.527) 90%);
 } */
 
-.aside-deco-bottom {
+/* .aside-deco-bottom {
     align-self: flex-end;
     width: 150px;
     border-radius: 50%;
     padding: 15px;
     border: 5px solid #3986a5;
     background-image: linear-gradient(90deg, #14141a, black);
-}
+} */
 
 .link-git-wrap {
     display: flex;
@@ -84,7 +83,7 @@
 
 /* PERSONALIA */
 .personalia {
-    padding: 100px;
+    padding: 4vw;
     margin: 10px 0 50px 0;
     overflow-y: scroll;
     scroll-behavior: smooth;
@@ -98,12 +97,18 @@
     max-width: 700px;
 }
 
+/* Hide scrollbar for Chrome, Safari and Opera */
+.personalia::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .personalia {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+
 /* SKILLS */
-.skills-wrap {
-        /* box-shadow: inset 6px 6px 10px rgb(63, 152, 186); */
-        border-radius: 50%;
-        padding: 10vh 6vw;
-}
 
 .skills-c, .skills-t {
     margin: 0;
