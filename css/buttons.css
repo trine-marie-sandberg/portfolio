@@ -34,22 +34,28 @@
 }
 
 .projects-btn {
-    background-color: #0D0D0F;
-    border: 1px solid #ffff;
-    border-radius: 25px;
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    background-image: url(/img/moon.jpg);
+    background-size: cover;
+    border: 1px solid #ffffff;
+    box-shadow: 6px 6px 20px rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
     display: flex;
     align-items: center;
-    width: fit-content;
-    padding: 10px 20px;
+    width: 10vw;
+    height: 10vw;
     cursor: pointer;
-    margin-top: 4vh;
-    margin-bottom: 8vh;
 }
 
 .projects-btn-text {
     font-weight: 200;
-    margin: 0;
-    margin-right: 10px;
+    padding: 15px 10px;
+    border-radius: 30%;
+    background-image: linear-gradient(20deg, #000000ce 30%, rgba(54, 54, 54, 0.158));
+    transform: rotate(0.5turn);
+    -webkit-transform: translateX(-10px) translateY(15px) rotate(70deg);
 }
 
 .stars {

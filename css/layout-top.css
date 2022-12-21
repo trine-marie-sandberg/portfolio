@@ -8,10 +8,12 @@
     width: 100vw;
     height: 90vh;
     position: relative;
+    background-image: linear-gradient(110deg, #14141a 30%,black 55%, #14141a 30%);
+
 }
 
 /* ASIDE */
-aside {
+.aside-git-linkedin {
     padding: 2rem;
     box-shadow: 6px 6px 20px rgba(63, 152, 186, 50%);
     border: 1px solid #3987a5;
@@ -30,35 +32,36 @@ aside {
 .aside-deco-container {
     flex-direction: column;
     background-image: linear-gradient(to right, #14141a 30%,black 55%, #14141a 30%);
-    height: 70vh;
+    height: 90vh;
 }
 
-.aside-deco-bottom-wrap {
+/* .aside-deco-bottom-wrap {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
     height: 20px;
     padding-top: 45vh;
-}
+} */
 
-.deco-sidewalk {
-    border: solid #14141a 1px;
-    border-radius: 10px;
+/* .deco-sidewalk {
+    border-bottom: solid 3px #3986a5;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 30px;
     position: absolute;
     padding: 10px;
     height: 10vh;
     width: 170px;
-    background-image: linear-gradient(105deg, #14141a71 10%, rgba(0, 0, 0, 0.527) 90%);
-}
+    background-image: linear-gradient(105deg, #14141a28 10%, rgba(0, 0, 0, 0.527) 90%);
+} */
 
 .aside-deco-bottom {
     align-self: flex-end;
-    height: 50px;
     width: 150px;
     border-radius: 50%;
-    padding: 5px;
-    border: 4px solid rgba(0, 0, 0, 0.527);
-    background-image: linear-gradient(105deg, #14141a,black, #14141a, black, #14141a, black, #14141a, black, #14141a, black, #14141a,black, #14141a, black, #14141a, black, #14141a, black, #14141a, black, #14141a,black, #14141a, black);
+    padding: 15px;
+    border: 5px solid #3986a5;
+    background-image: linear-gradient(90deg, #14141a, black);
 }
 
 .link-git-wrap {
@@ -81,36 +84,24 @@ aside {
 
 /* PERSONALIA */
 .personalia {
+    padding: 100px;
+    margin: 10px 0 50px 0;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
     color: #ffff;
-    /* padding: 0 10px 0 5vh; */
-    display: flex;
-    flex-direction: column;
+    /* box-shadow: inset 6px 6px 10px rgb(63, 152, 186); */
 }
 
 .personalia-text-wrapper {
-    margin-top: 25vh;
+    margin-top: 5px;
     max-width: 700px;
 }
 
-/* .welcome-text {
-    padding-left: 30px;
-} */
-
-/* .img-hi-wrap {
-    position: absolute;
-    display: flex;
-    align-items: center;
-    top: 50px;
-    left: -60px;
-} */
-
 /* SKILLS */
 .skills-wrap {
-        position: absolute;
-        bottom: 0;
-        right: 0;
-        box-shadow: inset 6px 6px 10px rgb(63, 152, 186);
-        border-radius: 30% 30% 0 30%;
+        /* box-shadow: inset 6px 6px 10px rgb(63, 152, 186); */
+        border-radius: 50%;
         padding: 10vh 6vw;
 }
 
@@ -118,3 +109,5 @@ aside {
     margin: 0;
     padding: 5px;
 }
+
+/*moon/*

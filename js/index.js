@@ -14,4 +14,24 @@ export function avatarHoverEffect() {
         }, 500);
     });
 };
-avatarHoverEffect(avatar);
+avatarHoverEffect();
+
+export function moonBtn() {
+
+    const btn = document.querySelector(".projects-btn");
+    const text = document.querySelector(".projects-btn-text");
+    text.style.display = "none";
+
+    btn.addEventListener("mouseover", (event) => {
+        text.style.display = "block";
+    });
+
+    btn.addEventListener("mouseout", (event) => {
+
+        setTimeout(() => {
+            text.style.display = "none";
+        }, 500);
+    });
+};
+
+moonBtn();
