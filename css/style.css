@@ -36,7 +36,7 @@ a {
     border: 2px solid #ffff;
     height: auto;
     width: auto;
-    max-width: 20vw;
+    max-width: 100px;
 }
 
 .auto-img {

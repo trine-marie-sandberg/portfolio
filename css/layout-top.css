@@ -1,6 +1,8 @@
 /* GENERAL */
 .flex-wrap {
     display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .top-content-wrap {
