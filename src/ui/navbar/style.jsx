@@ -34,12 +34,13 @@ export const Li = styled.li`
   margin: ${(props) => props.theme.sizes.sm};
   & p {
     border-bottom: 1px solid rgba(69, 152, 186, 0);
-    padding: 5px 15px;
+    padding: 2px 10px;
     margin: 0;
   }
   & :hover {
     text-shadow: rgb(146, 224, 255) 0 0 30px;
-    border-bottom: 1px solid rgba(69, 152, 186, 0.6);
+    animation-name: underline;
+    animation-duration: 2s;
   }
   & :hover p {
     color: ${(props) => props.theme.color.light};

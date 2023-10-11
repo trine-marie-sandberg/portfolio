@@ -53,10 +53,26 @@ const GlobalStyle = createGlobalStyle`
   }
   .active p {
     color: rgb(146, 224, 255) !important;
+    border-bottom: 1px solid rgb(146, 224, 255) !important;
+  }
+  li p :hover {
+    animation-name: underline;
+    animation-duration: 2s;
   }
   #visible {
     display: block;
   }
+  //Animation keyframes
+@keyframes underline {
+  0% {border-bottom: 1px solid rgb(30, 45, 51)}
+  10% {border-bottom: 1px solid rgb(51, 77, 87)}
+  30% {border-bottom: 1px solid rgb(113, 172, 196)}
+  50% {border-bottom: 1px solid rgb(146, 224, 255)}
+  60% {border-bottom: 1px solid rgb(146, 224, 255)}
+  70% {border-bottom: 1px solid rgb(113, 172, 196)}
+  90% {border-bottom: 1px solid rgb(51, 77, 87)}
+  100% {border-bottom: 1px solid rgb(30, 45, 51)}
+}
 `;
 
 export default GlobalStyle;

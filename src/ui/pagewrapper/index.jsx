@@ -1,7 +1,7 @@
-import Pagewrap from "./style";
+import { TopContentWrap } from "./style";
 
-export default function PageWrapper({children}) {
+export default function TopContent({children}) {
     return(
-        <Pagewrap>{children}</Pagewrap>
+        <TopContentWrap>{children}</TopContentWrap>
     )
 }
