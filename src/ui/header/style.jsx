@@ -5,18 +5,17 @@ export const Head = styled.header`
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: space-between;
   @media (max-width: 600px) {
    padding: 0 ${(props) => props.theme.sizes.lg};
   }
 `;
 export const Logo = styled.img`
   width: 100%;
-  max-width: 100px;
+  max-width: 120px;
   padding: ${(props) => props.theme.sizes.med};
   height: auto;
-  @media (max-width: 600px) {
-   max-width: 120px;
+  @media (max-width: 700px) {
+   max-width: 100px;
   }
 `;
 export const MobileMenu = styled.img`

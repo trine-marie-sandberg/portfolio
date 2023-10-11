@@ -51,8 +51,8 @@ const GlobalStyle = createGlobalStyle`
     font-family: "finalsix", sans-serif;
     font-weight: 400;
   }
-  .active i {
-    color: var(--color-secondary) !important;
+  .active p {
+    color: rgb(146, 224, 255) !important;
   }
   #visible {
     display: block;

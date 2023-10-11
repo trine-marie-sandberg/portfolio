@@ -33,16 +33,15 @@ export const Ul = styled.ul`
 export const Li = styled.li`
   margin: ${(props) => props.theme.sizes.sm};
   & p {
-    border: 1px solid rgba(69, 152, 186, 0.2);
-    border-radius: 8px;
+    border-bottom: 1px solid rgba(69, 152, 186, 0);
     padding: 5px 15px;
     margin: 0;
   }
   & :hover {
-    box-shadow: 1px 2px 30px rgba(63, 151, 186, 0.39);
+    text-shadow: rgb(146, 224, 255) 0 0 30px;
+    border-bottom: 1px solid rgba(69, 152, 186, 0.6);
   }
   & :hover p {
-    border: 1px solid rgba(69, 152, 186, 0.6);
     color: ${(props) => props.theme.color.light};
   }
   & a {
@@ -61,8 +60,7 @@ export const I = styled.i`
    padding: ${(props) => props.theme.sizes.xs};
   }
 `;
-//https://codepen.io/shephero/pen/LYVrdjX
-//https://css-tricks.com/transforms-on-svg-elements/
+
 export const MenuIconWrap = styled.i`
   z-index: 2;
   cursor: pointer;
