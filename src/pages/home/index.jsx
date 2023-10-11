@@ -10,7 +10,7 @@ export default function HomePage() {
                 <h1>
                   Making content with a passion for technical and creative work
                 </h1>
-                <p>Hello and welcome to my portfolio 🙂🤖</p>
+                <p>Hello and welcome to my portfolio</p>
                 <p>
                   I am a positive and creative girl that love to interact with computers and humans alike.
                 </p>
@@ -31,6 +31,8 @@ export default function HomePage() {
                         <SkillImg src="/css.png" alt="css"/>
                         <SkillIcon className="fa-brands fa-react"></SkillIcon>
                         <SkillImg src="/wp.png" alt="Wordpress"/>
+                        <SkillImg src="/mbdb.png" alt="MongoDB"/>
+                        <SkillImg src="/bootstrap.png" alt="Bootstrap"/>
                     </FlexWrap>
                 </div>
                 <div>
