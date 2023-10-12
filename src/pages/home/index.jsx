@@ -13,7 +13,7 @@ export default function HomePage() {
                     <HeadingWrap>
                         <HeadingBgContrast>
                         <i className="fa-solid fa-quote-left"></i>
-                            <h1>Making content with a passion for technical and creative work</h1>
+                            <h1>Creating content with a passion❤️‍🔥for technical and creative work</h1>
                         </HeadingBgContrast>
                     </HeadingWrap>
                     <h2>Quick overview</h2>
