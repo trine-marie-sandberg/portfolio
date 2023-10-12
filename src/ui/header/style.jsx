@@ -14,11 +14,11 @@ export const Head = styled.header`
 `;
 export const Logo = styled.img`
   width: 100%;
-  max-width: 120px;
-  padding: ${(props) => props.theme.sizes.med};
+  max-width: 110px;
   height: auto;
+  padding: ${(props) => props.theme.sizes.med};
   @media (max-width: 700px) {
-   max-width: 100px;
+   max-width: 90px;
   }
 `;
 export const MobileMenu = styled.img`
