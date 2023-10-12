@@ -15,7 +15,7 @@ export const HeadingWrap = styled.div`
   border-radius: ${(props) => props.theme.sizes.borderRadius};
   background-size: cover;
   background-repeat: no-repeat;
-  /* border: 1px solid ${(props) => props.theme.color.secondary}; */
+  border: 1px solid ${(props) => props.theme.color.dark};
   & i {
     font-size: 45px;
   }

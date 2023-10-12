@@ -1,7 +1,9 @@
+import { Link } from "react-router-dom";
 import { FlexWrap } from "../../ui/flex";
 import TopContent from "../../ui/pagewrapper";
 import { SectionWrap } from "../../ui/sectionwrap/style";
 import { HeadingBgContrast, HeadingWrap, SkillIcon, SkillImg } from "./style";
+import { BtnPrimary, BtnSecondary } from "../../ui/btns";
 
 export default function HomePage() {
     return(
@@ -18,8 +20,14 @@ export default function HomePage() {
                   Hello and welcome to my portfolio.
                   I am a positive and creative girl that love to interact with computers and humans alike.
                 </p>
-                <button>Projects</button>
-                <button>About me</button>
+                <FlexWrap>
+                    <BtnPrimary>
+                        <button>Projects</button>
+                    </BtnPrimary>
+                    <BtnSecondary>
+                        <Link>About me</Link>
+                    </BtnSecondary>
+                </FlexWrap>
                 <h2>Keywords</h2>
                 <p>React, JavaScript, HTML, CSS, NodeJs, NPM, Wordpress, PHP, MongoDB, design, social, problem solver and optimistic.</p>
                 <h2>Do you want to work with me?</h2>
