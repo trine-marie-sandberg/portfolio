@@ -24,7 +24,7 @@ export default function HomePage() {
             </SectionWrap>
             <div>
                 <div>
-                    <h2>Technical skills</h2>
+                    <h2>Technical</h2>
                     <FlexWrap>
                         <SkillImg src="/js.png" alt="Javascript"/>
                         <SkillImg src="/html.png" alt="html"/>
@@ -33,10 +33,13 @@ export default function HomePage() {
                         <SkillImg src="/wp.png" alt="Wordpress"/>
                         <SkillImg src="/mbdb.png" alt="MongoDB"/>
                         <SkillImg src="/bootstrap.png" alt="Bootstrap"/>
+                        <SkillImg src="/pa.png" alt="Power apps"/>
+                        <SkillImg src="/styled.png" alt="Styled components"/>
+                        <SkillImg src="/sass.png" alt="sass"/>
                     </FlexWrap>
                 </div>
                 <div>
-                    <h2>Creative skills</h2>
+                    <h2>Creative</h2>
                     <FlexWrap>
                         <SkillImg src="/ps.png" alt="Adobe Photoshop"/>
                         <SkillImg src="/ai.png" alt="Adobe Ilustrator"/>

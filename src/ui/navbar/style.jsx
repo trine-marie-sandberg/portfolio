@@ -38,7 +38,8 @@ export const Li = styled.li`
     margin: 0;
   }
   & :hover {
-    text-shadow: rgb(146, 224, 255) 0 0 30px;
+    /* text-shadow: rgb(146, 224, 255) 0 0 30px; */
+    //https://css-irl.info/drop-shadow-the-underrated-css-filter/
     animation-name: underline;
     animation-duration: 2s;
   }

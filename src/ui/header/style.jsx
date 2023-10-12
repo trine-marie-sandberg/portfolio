@@ -4,7 +4,7 @@ export const Head = styled.header`
   padding: 0 ${(props) => props.theme.sizes.xxl};
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   @media (max-width: 600px) {
    padding: 0 ${(props) => props.theme.sizes.lg};
