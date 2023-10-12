@@ -1,7 +1,13 @@
-import { TopContentWrap } from "./style";
+import { ContentWrap, GridWrap } from "./style";
 
-export default function TopContent({children}) {
+export default function FlexContent({children}) {
     return(
-        <TopContentWrap>{children}</TopContentWrap>
+        <ContentWrap>{children}</ContentWrap>
+    )
+}
+
+export function GridContent({children}) {
+    return(
+        <GridWrap>{children}</GridWrap>
     )
 }
