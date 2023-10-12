@@ -10,3 +10,21 @@ export const SkillIcon = styled.i`
   font-size: 50px;
   color: ${(props) => props.theme.color.secondary};
 `;
+export const HeadingWrap = styled.div`
+  background-image: url("/sky-bg.jpg");
+  border-radius: ${(props) => props.theme.sizes.borderRadius};
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* border: 1px solid ${(props) => props.theme.color.secondary}; */
+  & i {
+    font-size: 45px;
+  }
+  & h1 {
+    margin-top: 0;
+  }
+`;
+export const HeadingBgContrast = styled.div`
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 25px;
+  border-radius: ${(props) => props.theme.sizes.borderRadius};
+`;

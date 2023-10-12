@@ -1,20 +1,25 @@
 import { FlexWrap } from "../../ui/flex";
 import TopContent from "../../ui/pagewrapper";
 import { SectionWrap } from "../../ui/sectionwrap/style";
-import { SkillIcon, SkillImg } from "./style";
+import { HeadingBgContrast, HeadingWrap, SkillIcon, SkillImg } from "./style";
 
 export default function HomePage() {
     return(
         <TopContent>
             <SectionWrap>
-                <h1>
-                  Making content with a passion for technical and creative work
-                </h1>
-                <p>Hello and welcome to my portfolio</p>
+                <HeadingWrap>
+                    <HeadingBgContrast>
+                    <i className="fa-solid fa-quote-left"></i>
+                        <h1>Making content with a passion for technical and creative work</h1>
+                    </HeadingBgContrast>
+                </HeadingWrap>
+                <h2>Quick overview</h2>
                 <p>
+                  Hello and welcome to my portfolio.
                   I am a positive and creative girl that love to interact with computers and humans alike.
                 </p>
                 <button>Projects</button>
+                <button>About me</button>
                 <h2>Keywords</h2>
                 <p>React, JavaScript, HTML, CSS, NodeJs, NPM, Wordpress, PHP, MongoDB, design, social, problem solver and optimistic.</p>
                 <h2>Do you want to work with me?</h2>
