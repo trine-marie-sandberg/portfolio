@@ -31,7 +31,7 @@ export const BtnPrimary = styled.div`
     color: ${(props) => props.theme.color.black};
     font-size: 18px;
     padding: 5px 15px;
-    text-decoration: none;
+    text-decoration: none !important;
     display: block;
   }
 `;
@@ -66,7 +66,7 @@ export const BtnSecondary = styled.div`
     color: ${(props) => props.theme.color.font};
     font-size: 18px;
     padding: 5px 15px;
-    text-decoration: none;
+    text-decoration: none !important;
     display: block;
   }
 `;

@@ -31,7 +31,10 @@ export default function HomePage() {
                 <h2>Keywords</h2>
                 <p>React, JavaScript, HTML, CSS, NodeJs, NPM, Wordpress, PHP, MongoDB, design, social, problem solver and optimistic.</p>
                 <h2>Do you want to work with me?</h2>
-                <a href="/contact">Contact form</a>
+                <BtnSecondary>
+                    <Link to="/contact">Contact form</Link>
+                </BtnSecondary>
+                
                 <p>Email me directly at:</p>
                 <a href="mailto:trine.marie.sandberg@gmail.com">trine.marie.sandberg@gmail.com 📨</a>
             </SectionWrap>

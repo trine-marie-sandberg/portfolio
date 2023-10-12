@@ -6,4 +6,11 @@ export const SectionWrap = styled.div`
   @media(max-width: 600px) {
     padding: ${(props) => props.theme.sizes.sm};
   }
+  & a {
+    color: ${(props) => props.theme.color.font};
+    text-decoration: none;
+  }
+  & a:hover {
+    text-decoration: underline;
+  }
 `;
