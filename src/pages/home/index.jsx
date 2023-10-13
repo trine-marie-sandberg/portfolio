@@ -4,6 +4,8 @@ import FlexContent, { GridContent } from "../../ui/pagewrapper";
 import { SectionWrap } from "../../ui/sectionwrap/style";
 import { HeadingBgContrast, HeadingWrap, SkillIcon, SkillImg } from "./style";
 import { BtnPrimary, BtnSecondary } from "../../ui/btns";
+import { CardContainer } from "../../ui/card-container";
+import ProjectCards from "../../ui/cards";
 
 export default function HomePage() {
     return(
@@ -30,12 +32,11 @@ export default function HomePage() {
                         </BtnSecondary>
                     </FlexWrap>
                     <h2>Keywords</h2>
-                    <p>React, JavaScript, HTML, CSS, NodeJs, NPM, Wordpress, PHP, MongoDB, design, social, problem solver and optimistic.</p>
+                    <p>React, JavaScript, HTML, CSS, NPM, Wordpress, PHP, MongoDB, design, social, problem solver and optimistic.</p>
                     <h2>Do you want to work with me?</h2>
                     <BtnSecondary>
                         <Link to="/contact">Contact form</Link>
                     </BtnSecondary>
-                    
                     <p>Email me directly at:</p>
                     <a href="mailto:trine.marie.sandberg@gmail.com">trine.marie.sandberg@gmail.com 📨</a>
                 </SectionWrap>
@@ -69,6 +70,9 @@ export default function HomePage() {
             </FlexContent>
             <GridContent>
                 <h2>Projects</h2>
+                <CardContainer>
+                    <ProjectCards/>
+                </CardContainer>
             </GridContent>
         </div>
     )
