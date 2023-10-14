@@ -1,10 +1,9 @@
 import { Link } from "react-router-dom";
 import { FlexWrap } from "../../ui/flex";
-import FlexContent, { GridContent } from "../../ui/pagewrapper";
+import FlexContent, { GridContent } from "../../ui/wrappers";
 import { SectionWrap } from "../../ui/sectionwrap/style";
-import { HeadingBgContrast, HeadingWrap, SkillIcon, SkillImg } from "./style";
+import { HeadingBgContrast, HeadingWrap, SkillIcon, SkillImg, SkillsContainer } from "./style";
 import { BtnPrimary, BtnSecondary } from "../../ui/btns";
-import { CardContainer } from "../../ui/card-container";
 import ProjectCards from "../../ui/cards";
 
 export default function HomePage() {
@@ -40,7 +39,7 @@ export default function HomePage() {
                     <p>Email me directly at:</p>
                     <a href="mailto:trine.marie.sandberg@gmail.com">trine.marie.sandberg@gmail.com 📨</a>
                 </SectionWrap>
-                <div>
+                <SkillsContainer>
                     <div>
                         <h2>Technical</h2>
                         <FlexWrap>
@@ -66,13 +65,11 @@ export default function HomePage() {
                             <SkillImg src="/figma.png" alt="Figma"/>
                         </FlexWrap>
                     </div>
-                </div>
+                </SkillsContainer>
             </FlexContent>
             <GridContent>
                 <h2>Projects</h2>
-                <CardContainer>
-                    <ProjectCards/>
-                </CardContainer>
+                <ProjectCards/>
             </GridContent>
         </div>
     )

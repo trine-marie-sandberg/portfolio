@@ -1,15 +1,20 @@
+import { CardWrap, ProjectImg, ProjectTitle, CardsWrap } from "./style";
+
 export default function ProjectCards() {
     return(
-        <div>
-            <div className="app__bg__image current--image">
-                <h3>Card 1</h3>
-            </div>
-            <div className="app__bg__image next--image">
-                <h3>Card 2</h3>
-            </div>
-            <div className="app__bg__image previous--image">
-                <h3>Card 3</h3>
-            </div>
-        </div>
+        <CardsWrap>
+            <CardWrap>
+                <ProjectTitle>Holidaze</ProjectTitle>
+                <ProjectImg src="/holidaze.png"/>
+            </CardWrap>
+            <CardWrap>
+                <ProjectTitle>Fashion Auctions</ProjectTitle>
+                <ProjectImg src="/fashion-auctions.png"/>
+            </CardWrap>
+            <CardWrap>
+                <ProjectTitle>Recom</ProjectTitle>
+                <ProjectImg src="/recom.png"/>
+            </CardWrap>
+        </CardsWrap>
     )
 }
