@@ -1,3 +1,4 @@
+import { useRef } from "react";
 import { Link } from "react-router-dom";
 import { FlexWrap } from "../../ui/flex";
 import FlexContent, { GridContent } from "../../ui/wrappers";
@@ -7,6 +8,10 @@ import { BtnPrimary, BtnSecondary } from "../../ui/btns";
 import ProjectCards from "../../ui/cards";
 
 export default function HomePage() {
+    const projectsRef = useRef(null);
+    function scrollToProjects() {
+        projectsRef.current.scrollIntoView({behavior: "smooth"});
+    };
     return(
         <div>
             <FlexContent>
@@ -24,13 +29,17 @@ export default function HomePage() {
                     </p>
                     <FlexWrap>
                         <BtnPrimary>
-                            <button>Projects</button>
+                            <button
+                              onClick={scrollToProjects}
+                            >
+                                Projects
+                            </button>
                         </BtnPrimary>
                         <BtnSecondary>
                             <Link>About me</Link>
                         </BtnSecondary>
                     </FlexWrap>
-                    <h2>Keywords</h2>
+                    <h3>Keywords</h3>
                     <p>React, JavaScript, HTML, CSS, NPM, Wordpress, PHP, MongoDB, design, social, problem solver and optimistic.</p>
                     <h2>Do you want to work with me?</h2>
                     <BtnSecondary>
@@ -68,7 +77,7 @@ export default function HomePage() {
                 </SkillsContainer>
             </FlexContent>
             <GridContent>
-                <h2>Projects</h2>
+                <h2 ref={projectsRef}>Projects</h2>
                 <ProjectCards/>
             </GridContent>
         </div>
