@@ -24,7 +24,7 @@ export default function ProjectCards() {
             id: "card2",
             repoLink: "https://github.com/trine-marie-sandberg/fashion-auctions",
             demolink: "https://trine-marie-sandberg.github.io/fashion-auctions/index.html",
-            description: "",
+            description: "An auction webpage for fashion items. Logged in users are able to list or bid on items.",
             state: card2Front,
             setter: setCard2Front,
         },
@@ -34,7 +34,7 @@ export default function ProjectCards() {
             id: "card3",
             repoLink: "https://github.com/trine-marie-sandberg/js-frameworks-ca",
             demolink: "https://delightful-basbousa-b5b287.netlify.app/",
-            description: "",
+            description: "An ecomerse webpage. Features products, search, shopping cart and contact form",
             state: card3Front,
             setter: setCard3Front,
         }

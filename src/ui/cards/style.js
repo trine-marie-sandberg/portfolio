@@ -1,11 +1,10 @@
 import styled from "styled-components";
 
 export const CardWrap = styled.button`
-  z-index: 5;
   color: ${(props) => props.theme.color.light};
   font-size: 20px;
   width: 350px;
-  height: 300px;
+  height: 350px;
   background-color: ${(props) => props.theme.color.primary};
   border-radius: 5px;
   margin: 10px;
@@ -34,6 +33,11 @@ export const ProjectImg = styled.img`
 `;
 export const CardsWrap = styled.div`
   height: fit-content;
+  button:hover {
+    animation-name: glow;
+    animation-duration: 1.5s;
+    box-shadow: rgba(113, 198, 231, 0.76) 0px 7px 29px 0px;
+  }
 `;
 export const LinksWrap = styled.div`
   display: flex;
@@ -41,6 +45,7 @@ export const LinksWrap = styled.div`
   align-items: center;
   & a {
     color: ${(props) => props.theme.color.secondary};
+    font-size: 30px;
     & :hover {
       color: ${(props) => props.theme.color.light};
     }

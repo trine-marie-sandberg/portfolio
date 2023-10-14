@@ -76,6 +76,10 @@ const GlobalStyle = createGlobalStyle`
   90% {border-bottom: 1px solid rgb(51, 77, 87)}
   100% {border-bottom: 1px solid rgb(30, 45, 51)}
 }
+@keyframes glow{
+    from {box-shadow: rgba(11, 19, 10, 0) 0px 7px 29px 0px;}
+    to {box-shadow: rgba(113, 198, 231, 0.76) 0px 7px 29px 0px;}
+}
 `;
 
 export default GlobalStyle;
