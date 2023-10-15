@@ -3,6 +3,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import HomePage from './pages/home'
 import ContactPage from './pages/contact'
 import NotFound from './pages/404'
+import About from './pages/about'
 
 function App() {
 
@@ -11,7 +12,7 @@ function App() {
       <Layout>
         <Routes>
           <Route path="/" element={ <HomePage /> } />
-          <Route path="contact" element={ <ContactPage /> } />
+          <Route path="about" element={ <About /> } />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </Layout>

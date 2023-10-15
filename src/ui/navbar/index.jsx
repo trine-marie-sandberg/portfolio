@@ -33,8 +33,8 @@ export function NavBar() {
                     </NavLink>
                 </Li>
                 <Li>
-                    <NavLink to="contact" aria-label="Contact us">
-                        <p>Contact</p>
+                    <NavLink to="/about" aria-label="More about me">
+                        <p>About</p>
                     </NavLink>
                 </Li>
             </Ul>

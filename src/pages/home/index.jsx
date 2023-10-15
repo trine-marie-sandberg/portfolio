@@ -22,10 +22,10 @@ export default function HomePage() {
                             <h1>Creating content with a passion❤️‍🔥for technical and creative work</h1>
                         </HeadingBgContrast>
                     </HeadingWrap>
-                    <h2>Quick overview</h2>
+                    <h2>Hello and welcome to my portfolio</h2>
                     <p>
-                    Hello and welcome to my portfolio.
                     I am a positive and creative girl that love to interact with computers and humans alike.
+                    Check out my projects, or read the about me page to learn about what I do.
                     </p>
                     <FlexWrap>
                         <BtnPrimary>
@@ -36,17 +36,17 @@ export default function HomePage() {
                             </button>
                         </BtnPrimary>
                         <BtnSecondary>
-                            <Link>About me</Link>
+                            <Link to={"/about"}>About me</Link>
                         </BtnSecondary>
                     </FlexWrap>
                     <h3>Keywords</h3>
                     <p>React, JavaScript, HTML, CSS, NPM, Wordpress, PHP, MongoDB, design, social, problem solver and optimistic.</p>
                     <h2>Do you want to work with me?</h2>
-                    <BtnSecondary>
+                    {/* <BtnSecondary>
                         <Link to="/contact">Contact form</Link>
-                    </BtnSecondary>
-                    <p>Email me directly at:</p>
-                    <a href="mailto:trine.marie.sandberg@gmail.com">trine.marie.sandberg@gmail.com 📨</a>
+                    </BtnSecondary> */}
+                    <p>📨 Email me directly at:</p>
+                    <a href="mailto:trine.marie.sandberg@gmail.com">trine.marie.sandberg@gmail.com</a>
                 </SectionWrap>
                 <SkillsContainer>
                     <div>
