@@ -41,7 +41,7 @@ export default function ProjectCards() {
     ];
 
     return(
-        <CardsWrap>
+        <CardsWrap aria-label="Click to turn card">
             {cards.map((data) => {
                 return(
                     <CardWrap
@@ -60,10 +60,10 @@ export default function ProjectCards() {
                           <CardBack>
                               <ProjectTitle>{data.title}</ProjectTitle>
                               <LinksWrap>
-                                <a target="_blank" href={data.repoLink}>
+                                <a target="_blank" href={data.repoLink} aria-label="link to repository">
                                     <i className="fa-brands fa-github"></i>
                                 </a>
-                                <a target="_blank" href={data.demolink}>
+                                <a target="_blank" href={data.demolink} aria-label="Link to live demo">
                                     <i className="fa-solid fa-link"></i>
                                 </a>
                               </LinksWrap>
