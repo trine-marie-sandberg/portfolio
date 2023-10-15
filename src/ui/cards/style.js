@@ -11,7 +11,7 @@ export const CardWrap = styled.button`
   padding: 0;
   border: 1px solid ${(props) => props.theme.color.secondary};
   cursor: pointer;
-  @media(max-width: 400px) {
+  @media(max-width: 450px) {
     width: 250px;
   }
   @media(max-width: 320px) {
@@ -32,7 +32,8 @@ export const ProjectImg = styled.img`
   width: 100%;
 `;
 export const CardsWrap = styled.div`
-  height: fit-content;
+  display: flex;
+  flex-wrap: wrap;
   button:hover {
     animation-name: glow;
     animation-duration: 1.5s;

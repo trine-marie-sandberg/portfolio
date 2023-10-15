@@ -16,7 +16,7 @@ export const Logo = styled.img`
   width: 100%;
   max-width: 110px;
   height: auto;
-  padding: ${(props) => props.theme.sizes.med};
+  padding-top: ${(props) => props.theme.sizes.med};
   @media (max-width: 700px) {
    max-width: 90px;
   }
