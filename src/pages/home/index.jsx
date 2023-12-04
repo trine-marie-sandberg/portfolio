@@ -52,26 +52,26 @@ export default function HomePage() {
                     <div>
                         <h2>Technical</h2>
                         <FlexWrap>
-                            <SkillImg src="/js.png" alt="Javascript"/>
-                            <SkillImg src="/html.png" alt="html"/>
-                            <SkillImg src="/css.png" alt="css"/>
+                            <SkillImg src="/src/img/js.png" alt="Javascript"/>
+                            <SkillImg src="/src/img/html.png" alt="html"/>
+                            <SkillImg src="/src/img/css.png" alt="css"/>
                             <SkillIcon className="fa-brands fa-react"></SkillIcon>
-                            <SkillImg src="/wp.png" alt="Wordpress"/>
-                            <SkillImg src="/mbdb.png" alt="MongoDB"/>
-                            <SkillImg src="/bootstrap.png" alt="Bootstrap"/>
-                            <SkillImg src="/pa.png" alt="Power apps"/>
-                            <SkillImg src="/styled.png" alt="Styled components"/>
-                            <SkillImg src="/sass.png" alt="sass"/>
+                            <SkillImg src="/src/img/wp.png" alt="Wordpress"/>
+                            <SkillImg src="/src/img/mbdb.png" alt="MongoDB"/>
+                            <SkillImg src="/src/img/bootstrap.png" alt="Bootstrap"/>
+                            <SkillImg src="/src/img/pa.png" alt="Power apps"/>
+                            <SkillImg src="/src/img/styled.png" alt="Styled components"/>
+                            <SkillImg src="/src/img/sass.png" alt="sass"/>
                         </FlexWrap>
                     </div>
                     <div>
                         <h2>Creative</h2>
                         <FlexWrap>
-                            <SkillImg src="/ps.png" alt="Adobe Photoshop"/>
-                            <SkillImg src="/ai.png" alt="Adobe Ilustrator"/>
-                            <SkillImg src="/ae.png" alt="Adobe After Effects"/>
-                            <SkillImg src="/xd.png" alt="Adobe xd"/>
-                            <SkillImg src="/figma.png" alt="Figma"/>
+                            <SkillImg src="/src/img/ps.png" alt="Adobe Photoshop"/>
+                            <SkillImg src="/src/img/ai.png" alt="Adobe Ilustrator"/>
+                            <SkillImg src="/src/img/ae.png" alt="Adobe After Effects"/>
+                            <SkillImg src="/src/img/xd.png" alt="Adobe xd"/>
+                            <SkillImg src="/src/img/figma.png" alt="Figma"/>
                         </FlexWrap>
                     </div>
                 </SkillsContainer>
