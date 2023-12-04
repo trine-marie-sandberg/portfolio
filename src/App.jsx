@@ -11,7 +11,7 @@ function App() {
     <BrowserRouter>
       <Layout>
         <Routes>
-          <Route path="/" element={ <HomePage /> } />
+          <Route path="portfolio" element={ <HomePage /> } />
           <Route path="about" element={ <About /> } />
           <Route path="*" element={<NotFound />} />
         </Routes>
