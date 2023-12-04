@@ -25,7 +25,7 @@ export default function HomePage() {
                     <h2>Hello and welcome to my portfolio</h2>
                     <p>
                     I am a positive and creative girl that love to interact with computers and humans alike.
-                    Check out my projects, or read the about me page to learn about what I do. test
+                    Check out my projects, or read the about me page to learn about what I do.
                     </p>
                     <FlexWrap>
                         <BtnPrimary>
