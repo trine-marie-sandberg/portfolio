@@ -10,7 +10,7 @@ export default function ProjectCards() {
     const cards = [
         {
             title: "Holidaze",
-            img: "/holidaze.png",
+            img: "holidaze.png",
             id: "card1",
             repoLink: "https://github.com/trine-marie-sandberg/Holidaze",
             demolink: "https://lustrous-raindrop-4630e1.netlify.app/",
@@ -20,7 +20,7 @@ export default function ProjectCards() {
         },
         {
             title: "Fashion Auctions",
-            img: "/fashion-auctions.png",
+            img: "fashion-auctions.png",
             id: "card2",
             repoLink: "https://github.com/trine-marie-sandberg/fashion-auctions",
             demolink: "https://trine-marie-sandberg.github.io/fashion-auctions/index.html",
@@ -30,7 +30,7 @@ export default function ProjectCards() {
         },
         {
             title: "Recom",
-            img: "/recom.png",
+            img: "recom.png",
             id: "card3",
             repoLink: "https://github.com/trine-marie-sandberg/js-frameworks-ca",
             demolink: "https://delightful-basbousa-b5b287.netlify.app/",

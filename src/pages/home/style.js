@@ -23,7 +23,7 @@ export const SkillsContainer = styled.div`
   padding: 10px;
 `;
 export const HeadingWrap = styled.div`
-  background-image: url("/sky-bg.jpg");
+  background-image: url("sky-bg.jpg");
   border-radius: ${(props) => props.theme.sizes.borderRadius};
   background-size: cover;
   background-repeat: no-repeat;
