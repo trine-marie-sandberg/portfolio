@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Portrait = styled.div`
   background-size: contain;
-  background-image: url("/me.jpg");
+  background-image: url("me.jpg");
   border-radius: 100%;
   border: 1px solid ${(props) => props.theme.color.dark};
 `;
