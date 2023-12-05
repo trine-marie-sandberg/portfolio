@@ -16,7 +16,7 @@ export default function About() {
                 My name is Trine Marie Sandberg, and I am a front end developer.
                 I have been interested in web development and design since I got my first computer. This have remained a hobby for a long time while I 
                 have mostly worked with people in the service and health industry. To make a long story short, after learning Html, css and JavaScript, it became more than just
-                a hobby as I simply loved the learning prosess, and to create projects from start to finish.
+                a hobby as I simply love the learning process, and to create projects from start to finish.
             </p>
             <p>
                 Today I am a front end development graduate, and can not wait to take on new challenges to grow my knowledge and experience. 
