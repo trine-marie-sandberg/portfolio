@@ -37,6 +37,11 @@ export function NavBar() {
                         <p>About</p>
                     </NavLink>
                 </Li>
+                {/* <Li>
+                    <NavLink to='contact'>
+                        <p>Contact</p>
+                    </NavLink>
+                </Li> */}
             </Ul>
         </Nav>
         </>
