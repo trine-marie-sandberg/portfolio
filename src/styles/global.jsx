@@ -77,8 +77,24 @@ const GlobalStyle = createGlobalStyle`
   100% {border-bottom: 1px solid rgb(30, 45, 51)}
 }
 @keyframes glow{
-    from {box-shadow: rgba(11, 19, 10, 0) 0px 7px 29px 0px;}
-    to {box-shadow: rgba(113, 198, 231, 0.76) 0px 7px 29px 0px;}
+    from {
+      box-shadow: 
+      -20px -20px 30px -25px rgba(0, 231, 255, 0.2), 
+      20px 20px 30px -25px rgba(255, 0, 231, 0.2), 
+      -7px -7px 10px -5px rgba(0, 231, 255, 0.2), 
+      7px 7px 10px -5px rgba(255, 0, 231, 0.2), 
+      0 0 13px 4px rgba(255,255,255,0.2),
+      0 55px 35px -20px rgba(0, 0, 0, 0.5);
+    }
+    to {
+      box-shadow:  
+      20px 20px 30px -25px rgb(189, 0, 170), 
+      -20px -20px 30px -25px rgb(0, 231, 255),
+      7px 7px 10px -5px rgb(189, 0, 170), 
+      -7px -7px 10px -5px rgb(0, 231, 255), 
+      0 0 13px 4px rgba(255,255,255,0.2),
+      0 55px 35px -20px rgba(0, 0, 0, 0.5);
+    }
 }
 `;
 

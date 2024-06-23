@@ -53,10 +53,10 @@ export default function ProjectCards() {
                             const targetArea = target.getBoundingClientRect();
                             let x = e.pageX - targetArea.left;
                             let y = e.pageY - targetArea.top;
-                            let xRotation = x / 20;
-                            let yRotation = y / 20;
+                            let xRotation = x / 25;
+                            let yRotation = y / 25;
                             // console.log(`xRot: ${xRotation} yRot: ${yRotation}`)
-                            target.style.transform = `translate3d(0, 0, 0.01px) rotateY(${yRotation}deg) rotateX(${xRotation}deg)`;
+                            target.style.transform = `translate3d(0, 0, 0.01px) rotateY(${xRotation}deg) rotateX(${yRotation}deg)`;
                         }}
                     >
                         {data.state &&

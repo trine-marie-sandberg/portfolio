@@ -12,11 +12,11 @@ export const CardWrap = styled.button`
   border: none;
   /* border: 1px solid ${(props) => props.theme.color.secondary}; */
   box-shadow: 
-    -20px -20px 30px -25px rgba(0, 231, 255, 0.5), 
-    20px 20px 30px -25px rgba(255, 0, 231, 0.5), 
-    -7px -7px 10px -5px rgba(0, 231, 255, 0.5), 
-    7px 7px 10px -5px rgba(255, 0, 231, 0.5), 
-    0 0 13px 4px rgba(255,255,255,0.3),
+    -20px -20px 30px -25px rgba(0, 231, 255, 0.2), 
+    20px 20px 30px -25px rgba(255, 0, 231, 0.2), 
+    -7px -7px 10px -5px rgba(0, 231, 255, 0.2), 
+    7px 7px 10px -5px rgba(255, 0, 231, 0.2), 
+    0 0 13px 4px rgba(255,255,255,0.2),
     0 55px 35px -20px rgba(0, 0, 0, 0.5);
   cursor: pointer;
   @media(max-width: 450px) {
@@ -43,18 +43,17 @@ export const CardsWrap = styled.div`
   display: flex;
   flex-wrap: wrap;
   button:hover {
-    /* animation-name: tilt; */
-    /* animation-name: glow;
+    animation-name: glow;
     animation-duration: 1.5s;
-    box-shadow: rgba(113, 198, 231, 0.76) 0px 7px 29px 0px; */
+    /* box-shadow: rgba(113, 198, 231, 0.76) 0px 7px 29px 0px; */
     /* transform: translate3d(0, 0, 0.01px) rotateY(-20deg) rotateX(5deg) */
-    box-shadow: 
-    -20px -20px 30px -25px rgb(0, 231, 255), 
-    20px 20px 30px -25px rgb(255, 0, 231), 
-    -7px -7px 10px -5px rgb(0, 231, 255), 
-    7px 7px 10px -5px rgb(255, 0, 231), 
-    0 0 13px 4px rgba(255,255,255,0.3),
-    0 55px 35px -20px rgba(0, 0, 0, 0.5);
+    box-shadow:  
+      20px 20px 30px -25px rgb(189, 0, 170), 
+      -20px -20px 30px -25px rgb(0, 231, 255),
+      7px 7px 10px -5px rgb(189, 0, 170), 
+      -7px -7px 10px -5px rgb(0, 231, 255), 
+      0 0 13px 4px rgba(255,255,255,0.2),
+      0 55px 35px -20px rgba(0, 0, 0, 0.5);
   }
 `;
 export const LinksWrap = styled.div`
