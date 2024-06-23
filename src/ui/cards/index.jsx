@@ -45,32 +45,41 @@ export default function ProjectCards() {
             {cards.map((data) => {
                 return(
                     <CardWrap
-                    onClick={() => {
-                      data.setter(!data.state)
-                    }}
-                    key={data.id}
-                  >
-                      {data.state &&
-                          <div>
-                              <ProjectTitle>{data.title}</ProjectTitle>
-                              <ProjectImg src={data.img} />
-                          </div>
-                      }
-                      {!data.state &&
-                          <CardBack>
-                              <ProjectTitle>{data.title}</ProjectTitle>
-                              <LinksWrap>
-                                <a target="_blank" href={data.repoLink} aria-label="link to repository">
-                                    <i className="fa-brands fa-github"></i>
-                                </a>
-                                <a target="_blank" href={data.demolink} aria-label="Link to live demo">
-                                    <i className="fa-solid fa-link"></i>
-                                </a>
-                              </LinksWrap>
-                              <p>{data.description}</p>
-                          </CardBack>
-                      }
-                  </CardWrap>
+                        key={data.id}
+                        onClick={() => data.setter(!data.state)}
+                        onMouseOut={(event) => event.currentTarget.style.transform = "none"}
+                        onMouseMove={(e) => {
+                            const target = e.currentTarget;
+                            const targetArea = target.getBoundingClientRect();
+                            let x = e.pageX - targetArea.left;
+                            let y = e.pageY - targetArea.top;
+                            let xRotation = x / 20;
+                            let yRotation = y / 20;
+                            // console.log(`xRot: ${xRotation} yRot: ${yRotation}`)
+                            target.style.transform = `translate3d(0, 0, 0.01px) rotateY(${yRotation}deg) rotateX(${xRotation}deg)`;
+                        }}
+                    >
+                        {data.state &&
+                            <div>
+                                <ProjectTitle>{data.title}</ProjectTitle>
+                                <ProjectImg src={data.img} />
+                            </div>
+                        }
+                        {!data.state &&
+                            <CardBack>
+                                <ProjectTitle>{data.title}</ProjectTitle>
+                                <LinksWrap>
+                                    <a target="_blank" href={data.repoLink} aria-label="link to repository">
+                                        <i className="fa-brands fa-github"></i>
+                                    </a>
+                                    <a target="_blank" href={data.demolink} aria-label="Link to live demo">
+                                        <i className="fa-solid fa-link"></i>
+                                    </a>
+                                </LinksWrap>
+                                <p>{data.description}</p>
+                            </CardBack>
+                        }
+                    </CardWrap>
                 )
             })}
         </CardsWrap>
