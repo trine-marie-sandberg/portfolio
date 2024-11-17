@@ -47,16 +47,26 @@ export default function ProjectCards() {
                     <CardWrap
                         key={data.id}
                         onClick={() => data.setter(!data.state)}
-                        onMouseOut={(event) => event.currentTarget.style.transform = "none"}
+                        onMouseOut={(event) => {
+                            event.currentTarget.style.transform = 'perspective(1000px) rotateX(0deg) rotateY(0deg)';
+                        }}
                         onMouseMove={(e) => {
                             const target = e.currentTarget;
-                            const targetArea = target.getBoundingClientRect();
-                            let x = e.pageX - targetArea.left;
-                            let y = e.pageY - targetArea.top;
-                            let xRotation = x / 25;
-                            let yRotation = y / 25;
-                            // console.log(`xRot: ${xRotation} yRot: ${yRotation}`)
-                            target.style.transform = `translate3d(0, 0, 0.01px) rotateY(${xRotation}deg) rotateX(${yRotation}deg)`;
+                            const rect = target.getBoundingClientRect();
+                    
+                            // Mouse position relative to card
+                            const x = e.clientX - rect.left;
+                            const y = e.clientY - rect.top;
+                    
+                            // Card center
+                            const centerX = rect.width / 2;
+                            const centerY = rect.height / 2;
+                    
+                            // Calculate rotation (limit to ±10 degrees)
+                            const xRotation = ((y - centerY) / centerY) * 10; // Tilt up/down
+                            const yRotation = ((centerX - x) / centerX) * 10; // Tilt left/right
+                    
+                            target.style.transform = `perspective(1000px) rotateX(${xRotation}deg) rotateY(${yRotation}deg)`;
                         }}
                     >
                         {data.state &&
