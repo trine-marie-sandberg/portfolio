@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { CardWrap, ProjectImg, ProjectTitle, CardsWrap, CardBack, LinksWrap } from "./style";
+import { CardWrap, ProjectImg, ProjectTitle, CardsWrap, CardBack, LinksWrap, InnerBorder } from "./style";
 
 export default function ProjectCards() {
 
@@ -69,6 +69,7 @@ export default function ProjectCards() {
                             target.style.transform = `perspective(1000px) rotateX(${xRotation}deg) rotateY(${yRotation}deg)`;
                         }}
                     >
+                        <InnerBorder>
                         {data.state &&
                             <div>
                                 <ProjectTitle>{data.title}</ProjectTitle>
@@ -89,6 +90,7 @@ export default function ProjectCards() {
                                 <p>{data.description}</p>
                             </CardBack>
                         }
+                        </InnerBorder>
                     </CardWrap>
                 )
             })}

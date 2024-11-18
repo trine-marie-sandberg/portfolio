@@ -10,7 +10,7 @@ export const CardWrap = styled.button`
   margin: 10px;
   padding: 0;
   border: none;
-  /* border: 1px solid ${(props) => props.theme.color.secondary}; */
+  border: 4px solid ${(props) => props.theme.color.border};
   box-shadow: 
     -20px -20px 30px -25px rgba(0, 231, 255, 0.2), 
     20px 20px 30px -25px rgba(255, 0, 231, 0.2), 
@@ -25,6 +25,11 @@ export const CardWrap = styled.button`
   @media(max-width: 320px) {
     width: 200px;
   }
+`;
+export const InnerBorder = styled.div`
+  border: 1px solid ${(props) => props.theme.color.secondary};
+  border-radius: 10px;
+  height: 99%;
 `;
 export const CardBack = styled.div`
   display: inline-block;
