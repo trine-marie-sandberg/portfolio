@@ -5,7 +5,7 @@ export default function Footer() {
 
     return(
         <Foot>
-            <p>© 2023 | Made with React and Vite</p>
+            <p>© 2025 | Made with React and Vite</p>
             <SocialMediaLinks />
         </Foot>
     )

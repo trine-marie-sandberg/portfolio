@@ -14,8 +14,8 @@ export default function About() {
             <h2>Hi 👋</h2>
             <p>
                 My name is Trine Marie Sandberg Johansson, and I am a web developer.
-                I have been interested in web development and design since I got my first computer. This have remained a hobby for a long time while I 
-                have mostly worked with people in the service and health industry. To make a long story short, web development gradually became my passion, 
+                I have been interested in web development and design since I got my first computer. This have remained a hobby for a long time, 
+                and to make a long story short, web development gradually became my passion, 
                 and today I develop a wide range of web applications and solutions.
             </p>
             <p>
