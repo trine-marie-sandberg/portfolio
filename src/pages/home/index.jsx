@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { FlexWrap } from "../../ui/flex";
 import FlexContent, { GridContent } from "../../ui/wrappers";
 import { SectionWrap } from "../../ui/sectionwrap/style";
-import { HeadingBgContrast, HeadingWrap, SkillIcon, SkillImg, SkillsContainer } from "./style";
+import { HeadingBgContrast, HeadingWrap, ProjectsContainer, ProjectsHeading, SkillIcon, SkillImg, SkillsContainer } from "./style";
 import { BtnPrimary, BtnSecondary } from "../../ui/btns";
 import ProjectCards from "../../ui/cards";
 
@@ -80,10 +80,10 @@ export default function HomePage() {
                     </div>
                 </SkillsContainer>
             </FlexContent>
-            <GridContent>
-                <h2 ref={projectsRef}>Projects</h2>
+            <ProjectsContainer>
+                <ProjectsHeading ref={projectsRef}>Projects</ProjectsHeading>
                 <ProjectCards/>
-            </GridContent>
+            </ProjectsContainer>
         </div>
     )
 };

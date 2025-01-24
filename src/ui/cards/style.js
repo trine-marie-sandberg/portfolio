@@ -47,6 +47,7 @@ export const ProjectImg = styled.img`
 export const CardsWrap = styled.div`
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   button:hover {
     animation-name: glow;
     animation-duration: 1.5s;

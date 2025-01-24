@@ -27,7 +27,7 @@ export const HeadingWrap = styled.div`
   border-radius: ${(props) => props.theme.sizes.borderRadius};
   background-size: cover;
   background-repeat: no-repeat;
-  border: 1px solid ${(props) => props.theme.color.dark};
+  border: 1px solid rgba(63, 151, 186, 0.582);
   & i {
     font-size: 45px;
   }
@@ -39,4 +39,14 @@ export const HeadingBgContrast = styled.div`
   background-color: rgba(0, 0, 0, 0.7);
   padding: 25px;
   border-radius: ${(props) => props.theme.sizes.borderRadius};
+`;
+export const ProjectsContainer = styled.div`
+  width: 100%;
+  background: linear-gradient(90deg,#053c4d6e 0%,#1e002450 35%, #0211274b 100%);
+  box-shadow: 0 -20px 20px -20px rgb(63, 152, 186);
+  border-top: 1px solid rgba(63, 151, 186, 0.582);
+`;
+export const ProjectsHeading = styled.h2`
+  font-size: 28px;
+  padding: 15px;
 `;
