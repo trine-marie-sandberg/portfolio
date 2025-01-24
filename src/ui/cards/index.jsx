@@ -6,6 +6,9 @@ export default function ProjectCards() {
     const [ card1Front, setCard1Front ] = useState(true);
     const [ card2Front, setCard2Front ] = useState(true);
     const [ card3Front, setCard3Front ] = useState(true);
+    const [ card4Front, setCard4Front ] = useState(true);
+    const [ card5Front, setCard5Front ] = useState(true);
+    const [ card6Front, setCard6Front ] = useState(true);
 
     const cards = [
         {
@@ -19,25 +22,55 @@ export default function ProjectCards() {
             setter: setCard1Front,
         },
         {
-            title: "Fashion Auctions",
-            img: "fashion-auctions.png",
+            title: "Recom",
+            img: "recom.png",
             id: "card2",
-            repoLink: "https://github.com/trine-marie-sandberg/fashion-auctions",
-            demolink: "https://trine-marie-sandberg.github.io/fashion-auctions/index.html",
-            description: "An auction webpage for fashion items. Logged in users are able to list or bid on items.",
+            repoLink: "https://github.com/trine-marie-sandberg/js-frameworks-ca",
+            demolink: "https://delightful-basbousa-b5b287.netlify.app/",
+            description: "An ecomerse webpage. Features products, search, shopping cart and contact form",
             state: card2Front,
             setter: setCard2Front,
         },
         {
-            title: "Recom",
-            img: "recom.png",
+            title: "Fashion Auctions",
+            img: "fashion-auctions.png",
             id: "card3",
-            repoLink: "https://github.com/trine-marie-sandberg/js-frameworks-ca",
-            demolink: "https://delightful-basbousa-b5b287.netlify.app/",
-            description: "An ecomerse webpage. Features products, search, shopping cart and contact form",
+            repoLink: "https://github.com/trine-marie-sandberg/fashion-auctions",
+            demolink: "https://trine-marie-sandberg.github.io/fashion-auctions/index.html",
+            description: "An auction webpage for fashion items. Logged in users are able to list or bid on items.",
             state: card3Front,
             setter: setCard3Front,
-        }
+        },
+        {
+            title: "Mountain Hiker Photography Blog",
+            img: "https://user-images.githubusercontent.com/91562336/195579423-7d27482d-cdeb-43fa-9f0c-78772034eafa.jpg",
+            id: "card4",
+            demolink: "https://fabulous-quokka-b6c6e5.netlify.app/posts",
+            repoLink: "https://github.com/Noroff-FEU-Assignments/project-exam-1-trine-marie-sandberg?tab=readme-ov-file",
+            description: "Blog page about hiking, focusing on images. The blog posts are created from wordpress dashboard, and displayed using Wordpress REST API.",
+            state: card4Front,
+            setter: setCard4Front,
+        },
+        {
+            title: "Community Science Museum",
+            img: "https://user-images.githubusercontent.com/91562336/195583033-03d4820c-8bbb-4835-b450-00e3518c984e.jpg",
+            id: "card5",
+            demolink: "https://eager-payne-97f61d.netlify.app/",
+            repoLink: "https://github.com/trine-marie-sandberg/HTML-CSS-course-asignment-museum",
+            description: "A community science Museum homepage. Made with just css and html.",
+            state: card5Front,
+            setter: setCard5Front,
+        },
+        {
+            title: "The Social Vegan",
+            img: "https://user-images.githubusercontent.com/91562336/200136089-4fb524aa-452c-4ac2-ba10-1a77e8fc5cc0.PNG",
+            id: "card6",
+            demolink: "https://incredible-pixie-994c33.netlify.app/",
+            repoLink: "https://github.com/trine-marie-sandberg/the-social-vegan",
+            description: "A social media platform with a vegan theme.",
+            state: card6Front,
+            setter: setCard6Front,
+        },
     ];
 
     return(

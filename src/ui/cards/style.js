@@ -5,9 +5,9 @@ export const CardWrap = styled.button`
   font-size: 20px;
   width: 350px;
   height: 350px;
-  background-color: ${(props) => props.theme.color.primary};
+  background-color: rgba(0, 0, 15, 0.5);
   border-radius: 10px;
-  margin: 10px;
+  margin: 20px;
   padding: 0;
   border: none;
   border: 4px solid ${(props) => props.theme.color.border};
