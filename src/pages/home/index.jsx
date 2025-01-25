@@ -66,6 +66,10 @@ export default function HomePage() {
                             <SkillImg src="pa.png" alt="Power apps"/>
                             <SkillImg src="styled.png" alt="Styled components"/>
                             <SkillImg src="sass.png" alt="sass"/>
+                            <SkillImg src="nodejs.png" alt="NodeJs" />
+                            <SkillImg src="mysql.png" alt="MySQL" />
+                            <SkillImg src="sequelize.png" alt="Sequelize" />
+                            <SkillImg src="express.png" alt="Express" />
                         </FlexWrap>
                     </div>
                     <div>
