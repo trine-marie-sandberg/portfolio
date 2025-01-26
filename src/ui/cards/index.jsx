@@ -79,13 +79,23 @@ export default function ProjectCards() {
                 return(
                     <CardWrap
                         key={data.id}
-                        onClick={() => data.setter(!data.state)}
-                        onMouseOut={(event) => {
-                            event.currentTarget.style.transform = 'perspective(1000px) rotateX(0deg) rotateY(0deg)';
+                        onClick={(event) => {
+                            data.setter(!data.state);
+                            event.currentTarget.style.transform = 'perspective(1000px) rotateX(0deg) rotateY(180deg)';
+                            const innerDiv = event.currentTarget.querySelector('div');
+                            if (innerDiv) {
+                                innerDiv.style.transform = 'perspective(1000px) rotateX(0deg) rotateY(-180deg)';
+                            }
+                            event.currentTarget.style.transition = 'transform 0.6s ease';
                         }}
+                        // onMouseOut={(event) => {
+                        //     event.currentTarget.style.transition = 'transform 0.1s ease';
+                        //     event.currentTarget.style.transform = 'perspective(1000px) rotateX(0deg) rotateY(0deg)';
+                        // }}
                         onMouseMove={(e) => {
                             const target = e.currentTarget;
                             const rect = target.getBoundingClientRect();
+                            e.currentTarget.style.transition = 'transform 0s ease';
                     
                             // Mouse position relative to card
                             const x = e.clientX - rect.left;
@@ -100,6 +110,10 @@ export default function ProjectCards() {
                             const yRotation = ((centerX - x) / centerX) * 10; // Tilt left/right
                     
                             target.style.transform = `perspective(1000px) rotateX(${xRotation}deg) rotateY(${yRotation}deg)`;
+                            const innerDiv = e.currentTarget.querySelector('div');
+                            if (innerDiv) {
+                                innerDiv.style.transform = 'perspective(1000px) rotateX(0deg) rotateY(0deg)';
+                            }
                         }}
                     >
                         <InnerBorder>
