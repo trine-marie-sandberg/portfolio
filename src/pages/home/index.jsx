@@ -22,14 +22,16 @@ export default function HomePage() {
                             <h1>Creating content with a passion❤️‍🔥for technical and creative work</h1>
                         </HeadingBgContrast>
                     </HeadingWrap>
-                    <h2>Welcome!</h2>
+                    <h2>Hi there!</h2>
                     <p>
-                        If you are looking for help with your web application, accessibility, or simply need
-                        a fulstack developer that got your back, you have come to the right place.
+                        If you are looking for help with your web application, accessibility/WCAG, want to build a 
+                        home page, or simply need a fulstack developer that got your back, 
+                        you have come to the right place.
                     </p>
                     <p>
-                    I am a positive and creative girl that love to interact with computers and humans alike.
-                    Check out my projects, or read the about me page to learn more about what I do.
+                        I am a positive and creative girl that love to interact with computers and humans alike.
+                        I have most experience from web development, but I do all sorts of software development projects.
+                        Feel free to send me an email!
                     </p>
                     <FlexWrap>
                         <BtnPrimary>
