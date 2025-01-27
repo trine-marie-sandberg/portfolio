@@ -146,7 +146,7 @@ Error generating stack: `+i.message+`
   @media (max-width: 600px) {
    display: block;
   }
-`;function Pg(){return g.jsx("svg",{xmlns:"http://www.w3.org/2000/svg",width:"50",height:"30",viewBox:"0 0 30 80",children:g.jsxs("g",{id:"hamburger","data-name":"Group 186",transform:"translate(-154 -1436)",children:[g.jsx("rect",{id:"line-top","data-name":"Rectangle 180",width:"80",height:"8",transform:"translate(154 1436)",fill:"#fff"}),g.jsx("rect",{id:"line-middle","data-name":"Rectangle 181",width:"80",height:"8",transform:"translate(154 1472)",fill:"#fff"}),g.jsx("rect",{id:"line-bottom","data-name":"Rectangle 182",width:"80",height:"8",transform:"translate(154 1508)",fill:"#fff"})]})})}function _g(){const[e,t]=P.useState(""),[n,r]=P.useState("");function o(){e===""?(t("visible"),r("clicked")):(t(""),r(""))}return g.jsxs(g.Fragment,{children:[g.jsx(Eg,{onClick:o,children:g.jsx("div",{className:n,children:g.jsx(Pg,{})})}),g.jsx(Sg,{children:g.jsxs(Cg,{id:e,children:[g.jsx(Ga,{children:g.jsx($a,{to:"/","aria-label":"Homepage",children:g.jsx("p",{children:"Home"})})}),g.jsx(Ga,{children:g.jsx($a,{to:"/about","aria-label":"More about me",children:g.jsx("p",{children:"About"})})})]})})]})}const jg=T.header`
+`;function Pg(){return g.jsx("svg",{xmlns:"http://www.w3.org/2000/svg",width:"50",height:"30",viewBox:"0 0 30 80",children:g.jsxs("g",{id:"hamburger","data-name":"Group 186",transform:"translate(-154 -1436)",children:[g.jsx("rect",{id:"line-top","data-name":"Rectangle 180",width:"80",height:"8",transform:"translate(154 1436)",fill:"#fff"}),g.jsx("rect",{id:"line-middle","data-name":"Rectangle 181",width:"80",height:"8",transform:"translate(154 1472)",fill:"#fff"}),g.jsx("rect",{id:"line-bottom","data-name":"Rectangle 182",width:"80",height:"8",transform:"translate(154 1508)",fill:"#fff"})]})})}function _g(){const[e,t]=P.useState(""),[n,r]=P.useState("");function o(){e===""?(t("visible"),r("clicked")):(t(""),r(""))}return g.jsxs(g.Fragment,{children:[g.jsx(Eg,{onClick:o,children:g.jsx("div",{className:n,children:g.jsx(Pg,{})})}),g.jsx(Sg,{children:g.jsxs(Cg,{id:e,children:[g.jsx(Ga,{children:g.jsx($a,{to:"/portfolio","aria-label":"Homepage",children:g.jsx("p",{children:"Home"})})}),g.jsx(Ga,{children:g.jsx($a,{to:"/about","aria-label":"More about me",children:g.jsx("p",{children:"About"})})})]})})]})}const jg=T.header`
   padding: 0 ${e=>e.theme.sizes.xxl};
   display: flex;
   flex-wrap: wrap;
@@ -172,7 +172,7 @@ Error generating stack: `+i.message+`
   @media (max-width: 600px) {
    display: block;
   }
-`;function Rg(){return g.jsxs(jg,{children:[g.jsx(Mr,{to:"/",children:g.jsx(Ng,{src:"logo.svg",alt:"logo"})}),g.jsx(_g,{})]})}const zg=T.main`
+`;function Rg(){return g.jsxs(jg,{children:[g.jsx(Mr,{to:"/portfolio",children:g.jsx(Ng,{src:"logo.svg",alt:"logo"})}),g.jsx(_g,{})]})}const zg=T.main`
   all: unset;
   display: block;
   color: ${e=>e.theme.color.font};
