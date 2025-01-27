@@ -6,7 +6,7 @@ export default function Header() {
 
     return(
         <Head>
-            <Link to="/">
+            <Link to="/portfolio">
                 <Logo src="logo.svg" alt="logo"/>
             </Link>
             <NavBar />
