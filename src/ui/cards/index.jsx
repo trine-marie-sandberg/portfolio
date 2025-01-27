@@ -94,7 +94,7 @@ export default function ProjectCards() {
                             event.currentTarget.style.transition = 'transform 0.6s ease';
                             setTimeout(function() {
                                 setFlipping(false);
-                            }, 2000);
+                            }, 1000);
                         }}
                         // onMouseOut={(event) => {
                         //     event.currentTarget.style.transition = 'transform 0.1s ease';
