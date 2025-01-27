@@ -67,7 +67,7 @@ export default function ProjectCards() {
             id: "card6",
             demolink: "https://incredible-pixie-994c33.netlify.app/",
             repoLink: "https://github.com/trine-marie-sandberg/the-social-vegan",
-            description: "A social media platform with a vegan theme.",
+            description: "A social media platform with a vegan theme. Made with bootstrap.",
             state: card6Front,
             setter: setCard6Front,
         },
