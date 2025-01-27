@@ -3,6 +3,8 @@ import { CardWrap, ProjectImg, ProjectTitle, CardsWrap, CardBack, LinksWrap, Inn
 
 export default function ProjectCards() {
 
+    const [ flipping, setFlipping ] = useState(false);
+
     const [ card1Front, setCard1Front ] = useState(true);
     const [ card2Front, setCard2Front ] = useState(true);
     const [ card3Front, setCard3Front ] = useState(true);
@@ -81,38 +83,46 @@ export default function ProjectCards() {
                         key={data.id}
                         onClick={(event) => {
                             data.setter(!data.state);
+
+                            //Animate card "flip"
+                            setFlipping(true);
                             event.currentTarget.style.transform = 'perspective(1000px) rotateX(0deg) rotateY(180deg)';
                             const innerDiv = event.currentTarget.querySelector('div');
                             if (innerDiv) {
                                 innerDiv.style.transform = 'perspective(1000px) rotateX(0deg) rotateY(-180deg)';
                             }
                             event.currentTarget.style.transition = 'transform 0.6s ease';
+                            setTimeout(function() {
+                                setFlipping(false);
+                            }, 2000);
                         }}
                         // onMouseOut={(event) => {
                         //     event.currentTarget.style.transition = 'transform 0.1s ease';
                         //     event.currentTarget.style.transform = 'perspective(1000px) rotateX(0deg) rotateY(0deg)';
                         // }}
                         onMouseMove={(e) => {
-                            const target = e.currentTarget;
-                            const rect = target.getBoundingClientRect();
-                            e.currentTarget.style.transition = 'transform 0s ease';
-                    
-                            // Mouse position relative to card
-                            const x = e.clientX - rect.left;
-                            const y = e.clientY - rect.top;
-                    
-                            // Card center
-                            const centerX = rect.width / 2;
-                            const centerY = rect.height / 2;
-                    
-                            // Calculate rotation (limit to ±10 degrees)
-                            const xRotation = ((y - centerY) / centerY) * 10; // Tilt up/down
-                            const yRotation = ((centerX - x) / centerX) * 10; // Tilt left/right
-                    
-                            target.style.transform = `perspective(1000px) rotateX(${xRotation}deg) rotateY(${yRotation}deg)`;
-                            const innerDiv = e.currentTarget.querySelector('div');
-                            if (innerDiv) {
-                                innerDiv.style.transform = 'perspective(1000px) rotateX(0deg) rotateY(0deg)';
+                            if (flipping === false) {
+                                const target = e.currentTarget;
+                                const rect = target.getBoundingClientRect();
+                                e.currentTarget.style.transition = 'transform 0s ease';
+                        
+                                // Mouse position relative to card
+                                const x = e.clientX - rect.left;
+                                const y = e.clientY - rect.top;
+                        
+                                // Card center
+                                const centerX = rect.width / 2;
+                                const centerY = rect.height / 2;
+                        
+                                // Calculate rotation (limit to ±10 degrees)
+                                const xRotation = ((y - centerY) / centerY) * 10; // Tilt up/down
+                                const yRotation = ((centerX - x) / centerX) * 10; // Tilt left/right
+                        
+                                target.style.transform = `perspective(1000px) rotateX(${xRotation}deg) rotateY(${yRotation}deg)`;
+                                const innerDiv = e.currentTarget.querySelector('div');
+                                if (innerDiv) {
+                                    innerDiv.style.transform = 'perspective(1000px) rotateX(0deg) rotateY(0deg)';
+                                }
                             }
                         }}
                     >
