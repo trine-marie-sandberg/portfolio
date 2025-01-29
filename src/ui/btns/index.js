@@ -3,9 +3,9 @@ import styled from "styled-components";
 export const BtnPrimary = styled.div`
   width: fit-content;
   /* background-color: ${(props) => props.theme.color.light}; */
-  background-color: rgb(43, 1, 44);
+  background-color: rgb(21, 43, 54);
   /* border: 1px solid ${(props) => props.theme.color.primary}; */
-  border: 1px solid ${(props) => props.theme.color.dark};
+  border: 1px solid ${(props) => props.theme.color.primary};
   color: ${(props) => props.theme.color.black};
   border-radius: 5px;
   font-size: 18px;
@@ -21,7 +21,7 @@ export const BtnPrimary = styled.div`
     margin: 0;
     padding: 0;
     /* background-color: ${(props) => props.theme.color.light}; */
-    background-color: rgb(43, 1, 44);
+    background-color: rgb(21, 43, 54);
     border: none;
     color: ${(props) => props.theme.color.font};
     font-size: 18px;
