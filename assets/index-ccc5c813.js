@@ -264,9 +264,9 @@ Error generating stack: `+i.message+`
 `,Vg=T.div`
   width: fit-content;
   /* background-color: ${e=>e.theme.color.light}; */
-  background-color: rgb(43, 1, 44);
+  background-color: rgb(21, 43, 54);
   /* border: 1px solid ${e=>e.theme.color.primary}; */
-  border: 1px solid ${e=>e.theme.color.dark};
+  border: 1px solid ${e=>e.theme.color.primary};
   color: ${e=>e.theme.color.black};
   border-radius: 5px;
   font-size: 18px;
@@ -282,7 +282,7 @@ Error generating stack: `+i.message+`
     margin: 0;
     padding: 0;
     /* background-color: ${e=>e.theme.color.light}; */
-    background-color: rgb(43, 1, 44);
+    background-color: rgb(21, 43, 54);
     border: none;
     color: ${e=>e.theme.color.font};
     font-size: 18px;
