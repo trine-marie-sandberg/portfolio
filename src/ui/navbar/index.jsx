@@ -33,7 +33,7 @@ export function NavBar() {
                     </NavLink>
                 </Li>
                 <Li>
-                    <NavLink to="/about" aria-label="More about me">
+                    <NavLink to="/portfolio/about" aria-label="More about me">
                         <p>About</p>
                     </NavLink>
                 </Li>

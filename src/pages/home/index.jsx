@@ -42,7 +42,7 @@ export default function HomePage() {
                             </button>
                         </BtnPrimary>
                         <BtnSecondary>
-                            <Link to={"/about"}>About me</Link>
+                            <Link to={"/portfolio/about"}>About me</Link>
                         </BtnSecondary>
                     </FlexWrap>
                     <h3>Keywords</h3>
