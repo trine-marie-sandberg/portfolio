@@ -28,7 +28,7 @@ export function NavBar() {
         <Nav>
             <Ul id={visible}>
                 <Li>
-                    <NavLink to="/portfolio" aria-label="Homepage">
+                    <NavLink to="/" aria-label="Homepage">
                         <p>Home</p>
                     </NavLink>
                 </Li>

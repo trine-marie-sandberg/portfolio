@@ -21,6 +21,34 @@ export default function ContactPage() {
           message => alert(message)
         );
     }
+        //https://smtpjs.com/ 
+    //SMTP js
+    // function sendEmail(event) {
+    //   event.preventDefault();
+    //     Email.send({
+    //         SecureToken : "C973D7AD-F097-4B95-91F4-40ABC5567812",
+    //         To : 'trine.marie.sandberg@gmail.com',
+    //         From : userMail,
+    //         Subject : subject,
+    //         Body : message,
+    //     }).then(
+    //       message => alert(message)
+    //     );
+    // }
+
+    //https://medium.com/@Scofield_Idehen/smtp-js-send-email-without-a-server-from-the-browser-9c6babfa80d9
+    // function sendEmail(event) {
+    //   event.preventDefault();
+    //   const email = {
+    //     from: 'sender@example.com',
+    //     to: 'trine.marie.sandberg@gmail.com',
+    //     subject: 'Test email',
+    //     text: 'This is a test email sent from the browser'
+    //   }
+    //   smtp.sendMail(email)
+    //     .then(info => console.log(info))
+    //     .catch(err => console.error(err))
+    // }
     return(
         <GridContent>
             <h1>Get in touch</h1>
