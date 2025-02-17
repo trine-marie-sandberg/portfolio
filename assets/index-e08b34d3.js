@@ -172,7 +172,7 @@ Error generating stack: `+i.message+`
   @media (max-width: 600px) {
    display: block;
   }
-`;function zg(){return g.jsxs(Ng,{children:[g.jsx(Mr,{to:"/portfolio",children:g.jsx(Rg,{src:"logo.svg",alt:"logo"})}),g.jsx(jg,{})]})}const $g=T.main`
+`;function zg(){return g.jsxs(Ng,{children:[g.jsx(Mr,{to:"/portfolio/",children:g.jsx(Rg,{src:"logo.svg",alt:"logo"})}),g.jsx(jg,{})]})}const $g=T.main`
   all: unset;
   display: block;
   color: ${e=>e.theme.color.font};
