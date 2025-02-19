@@ -12,7 +12,8 @@ export const Nav =  styled.nav`
     width: 100%;
     z-index: 1;
     background-color: ${(props) => props.theme.color.primary};
-    border-bottom: 2px solid ${(props) => props.theme.color.light};;
+    border-bottom: 2px solid ${(props) => props.theme.color.secondary};
+    background: linear-gradient(90deg,#8AA4AD 0%,#AAA8B5 35%, #A6B0B9 100%);
   }
 `;
 export const Head = styled.header`
