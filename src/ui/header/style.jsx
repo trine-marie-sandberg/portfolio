@@ -6,8 +6,7 @@ export const Head = styled.header`
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  background: rgb(2,0,36);
-  background: linear-gradient(90deg,#053c4d6e 0%,#1e002450 35%, #0211274b 100%);
+  background: linear-gradient(90deg,rgba(5, 60, 77, 0.431) 0%,rgba(30, 0, 36, 0.314) 35%, rgba(2, 17, 39, 0.294) 100%);
   /* box-shadow: inset 0 -20px 20px -20px rgb(63, 152, 186); */
   border-bottom: 1px solid rgba(63, 151, 186, 0.582);
   border-bottom: 1px solid ${(props) => props.theme.color.border};

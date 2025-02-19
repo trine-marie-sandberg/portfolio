@@ -12,15 +12,14 @@ export const Nav =  styled.nav`
     width: 100%;
     z-index: 1;
     background-color: ${(props) => props.theme.color.primary};
-    border-bottom: 2px solid ${(props) => props.theme.color.secondary};
-    background: linear-gradient(90deg,#8AA4AD 0%,#AAA8B5 35%, #A6B0B9 100%);
+    border-bottom: 2px solid ${(props) => props.theme.color.border};
+    background: linear-gradient(90deg, ${(props) => props.theme.color.grad1} 0%, ${(props) => props.theme.color.grad2} 35%, ${(props) => props.theme.color.grad3} 100%);
   }
 `;
 export const Head = styled.header`
   padding: ${(props) => props.theme.sizes.sm};
   display: flex;
   justify-content: space-evenly;
-  background-color: ${(props) => props.theme.color.primary};
 `;
 export const Ul = styled.ul`
   display: flex;

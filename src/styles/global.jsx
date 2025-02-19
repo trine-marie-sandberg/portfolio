@@ -5,9 +5,15 @@ const GlobalStyle = createGlobalStyle`
     --color-primary: rgb(20, 20, 24);
     --color-secondary: rgb(69, 162, 197);
     --color-contrast-dark-theme: rgb(113, 198, 231);
+    --color-gradient1-dark-theme: #031a23;
+    --color-gradient2-dark-theme: #080410;
+    --color-gradient3-dark-theme: #021127
 
     --color-secondary-light-theme: rgb(2, 15, 20);
     --color-contrast-light-theme: rgb(214, 247, 255);
+    --color-gradient1-light-theme: #8AA4AD;
+    --color-gradient2-light-theme: #AAA8B5;
+    --color-gradient3-light-theme: #A6B0B9;
     
     --color-font: white;
     --color-font-black: rgb(6, 44, 67);

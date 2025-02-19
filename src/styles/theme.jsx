@@ -31,7 +31,10 @@ const lightTheme = {
     border: 'var(--color-contrast-dark)',
     bg: 'var(--color-sky)',
     nav: 'var(--color-secondary-light-theme)',
-    navContrast: 'var(--color-contrast-light-theme)'
+    navContrast: 'var(--color-contrast-light-theme)',
+    grad1: 'var(--color-gradient1-light-theme)',
+    grad2: 'var(--color-gradient2-light-theme)',
+    grad3: 'var(--color-gradient3-light-theme)',
   },
 };
 
@@ -49,7 +52,10 @@ const darkTheme = {
     border: 'var(--color-blue-dark)',
     bg: 'var(--color-black)',
     nav: 'var(--color-secondary)',
-    navContrast: 'var(--color-contrast-dark-theme)'
+    navContrast: 'var(--color-contrast-dark-theme)',
+    grad1: '#031a23',
+    grad2: '#080410',
+    grad3: '#021127',
   },
 };
 
