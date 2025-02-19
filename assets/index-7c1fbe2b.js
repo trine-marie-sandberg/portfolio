@@ -94,7 +94,8 @@ Error generating stack: `+i.message+`
     width: 100%;
     z-index: 1;
     background-color: ${e=>e.theme.color.primary};
-    border-bottom: 2px solid ${e=>e.theme.color.light};;
+    border-bottom: 2px solid ${e=>e.theme.color.secondary};
+    background: linear-gradient(90deg,#8AA4AD 0%,#AAA8B5 35%, #A6B0B9 100%);
   }
 `;L.header`
   padding: ${e=>e.theme.sizes.sm};
@@ -160,6 +161,7 @@ Error generating stack: `+i.message+`
   /* box-shadow: inset 0 -20px 20px -20px rgb(63, 152, 186); */
   border-bottom: 1px solid rgba(63, 151, 186, 0.582);
   border-bottom: 1px solid ${e=>e.theme.color.border};
+  min-height: 100px;
   @media (max-width: 600px) {
    padding: 0 ${e=>e.theme.sizes.lg};
   }
