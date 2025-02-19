@@ -44,13 +44,16 @@ export const Li = styled.li`
     animation-duration: 2s;
   }
   & :hover p {
-    color: ${(props) => props.theme.color.light};
+    color: ${(props) => props.theme.color.navContrast};
   }
   & a {
     font-size: ${(props) => props.theme.sizes.med};
     font-weight: 200;
-    color: ${(props) => props.theme.color.secondary};
+    color: ${(props) => props.theme.color.nav};
     text-decoration: none;
+  }
+  & a .active {
+    color: ${(props) => props.theme.color.navContrast};
   }
   cursor: pointer;
 `;

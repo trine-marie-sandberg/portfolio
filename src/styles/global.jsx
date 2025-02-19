@@ -4,14 +4,28 @@ const GlobalStyle = createGlobalStyle`
   html {
     --color-primary: rgb(20, 20, 24);
     --color-secondary: rgb(69, 162, 197);
+    --color-contrast-dark-theme: rgb(113, 198, 231);
+
+    --color-secondary-light-theme: rgb(2, 15, 20);
+    --color-contrast-light-theme: rgb(214, 247, 255);
+    
     --color-font: white;
     --color-font-black: rgb(6, 44, 67);
     --color-warning: #301313;
-    --color-contrast-light: rgb(113, 198, 231);
     --color-contrast-dark: rgb(24, 43, 51);
     --color-contrast-darker: rgb(15, 27, 32);
+
+    --color-contrast-light: rgb(113, 198, 231);
     --color-black: rgb(8, 8, 8);
     --color-border: rgb(4, 43, 61);
+    --color-cyan: rgb(113, 198, 231);
+    --color-white: rgb(255, 255, 255);
+    --color-sky: rgb(235, 243, 247);
+    --color-black: rgb(0, 5, 7);
+    --color-dark-grey: rgb(20, 20, 24);
+    --color-neon-blue: rgba(63, 151, 186, 0.582);
+    --color-neon-blue-light: rgba(69, 162, 197, 1);
+    --color-blue-dark: rgb(4, 43, 61);
 
     --sizes-xs: 5px;
     --sizes-sm: 1rem;
@@ -54,10 +68,13 @@ const GlobalStyle = createGlobalStyle`
     font-family: "finalsix", sans-serif;
     font-weight: 400;
   }
-  .active p {
+  /* .active p {
     color: rgb(146, 224, 255) !important;
     border-bottom: 1px solid rgb(146, 224, 255) !important;
-  }
+  } */
+  .active p {
+    border-bottom: 1px solid;
+  } 
   li p :hover {
     animation-name: underline;
     animation-duration: 2s;

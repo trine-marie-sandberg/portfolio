@@ -5,5 +5,5 @@ export const LinkWrap = styled.div`
 `;
 export const LinkIcon = styled.i`
   padding: 10px;
-  color: white;
+  color: ${(props) => props.theme.color.font}
 `;

@@ -10,7 +10,7 @@ export const CardWrap = styled.button`
   margin: 20px;
   padding: 0;
   border: none;
-  border: 4px solid ${(props) => props.theme.color.border};
+  border: 4px solid rgba(0, 0, 15, 0.21);
   box-shadow: 
     -20px -20px 30px -25px rgba(0, 231, 255, 0.2), 
     20px 20px 30px -25px rgba(255, 0, 231, 0.2), 

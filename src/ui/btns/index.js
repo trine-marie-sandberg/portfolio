@@ -5,8 +5,8 @@ export const BtnPrimary = styled.div`
   /* background-color: ${(props) => props.theme.color.light}; */
   background-color: rgb(21, 43, 54);
   /* border: 1px solid ${(props) => props.theme.color.primary}; */
-  border: 1px solid ${(props) => props.theme.color.primary};
-  color: ${(props) => props.theme.color.black};
+  border: 1px solid rgb(20, 20, 24);
+  /* color: ${(props) => props.theme.color.black}; */
   border-radius: 5px;
   font-size: 18px;
   padding: 2px;
@@ -24,6 +24,7 @@ export const BtnPrimary = styled.div`
     background-color: rgb(21, 43, 54);
     border: none;
     color: ${(props) => props.theme.color.font};
+    color: #fff;
     font-size: 18px;
     padding: 5px 15px;
     width: 100%;
@@ -43,7 +44,8 @@ export const BtnPrimary = styled.div`
 export const BtnSecondary = styled.div`
   width: fit-content;
   background-color: ${(props) => props.theme.color.primary};
-  border: 1px solid ${(props) => props.theme.color.dark};
+  /* border: 1px solid ${(props) => props.theme.color.dark}; */
+  border: 1px solid rgb(24, 43, 51);
   color: ${(props) => props.theme.color.font};
   border-radius: 5px;
   font-size: 18px;
@@ -73,4 +75,15 @@ export const BtnSecondary = styled.div`
     text-decoration: none !important;
     display: block;
   }
+`;
+
+export const ModeBtn = styled.button`
+  background-color: rgba(0, 0, 0, 0.11);
+  color: ${(props) => props.theme.color.font};
+  position: absolute;
+  top: 15px;
+  font-size: 25px;
+  border: 1px dashed ${(props) => props.theme.color.font};
+  border-radius: 5px;
+  cursor: pointer;
 `;

@@ -10,6 +10,7 @@ export const Head = styled.header`
   background: linear-gradient(90deg,#053c4d6e 0%,#1e002450 35%, #0211274b 100%);
   /* box-shadow: inset 0 -20px 20px -20px rgb(63, 152, 186); */
   border-bottom: 1px solid rgba(63, 151, 186, 0.582);
+  border-bottom: 1px solid ${(props) => props.theme.color.border};
   @media (max-width: 600px) {
    padding: 0 ${(props) => props.theme.sizes.lg};
   }
