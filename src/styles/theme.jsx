@@ -35,6 +35,7 @@ const lightTheme = {
     grad1: 'var(--color-gradient1-light-theme)',
     grad2: 'var(--color-gradient2-light-theme)',
     grad3: 'var(--color-gradient3-light-theme)',
+    fade: 'rgba(255, 255, 255, 0.158)',
   },
 };
 
@@ -56,6 +57,7 @@ const darkTheme = {
     grad1: '#031a23',
     grad2: '#080410',
     grad3: '#021127',
+    fade: 'rgba(0, 0, 0, 0.7)',
   },
 };
 

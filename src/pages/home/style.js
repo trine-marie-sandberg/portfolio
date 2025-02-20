@@ -29,7 +29,7 @@ export const HeadingWrap = styled.div`
   background-repeat: no-repeat;
   /* border: 1px solid rgba(63, 151, 186, 0.582); */
   border: 1px solid ${(props) => props.theme.color.border};
-  color: #fff;
+  color: ${(props) => props.theme.color.font};
   & i {
     font-size: 45px;
   }
@@ -38,7 +38,7 @@ export const HeadingWrap = styled.div`
   }
 `;
 export const HeadingBgContrast = styled.div`
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: ${(props) => props.theme.color.fade};
   padding: 25px;
   border-radius: ${(props) => props.theme.sizes.borderRadius};
 `;
