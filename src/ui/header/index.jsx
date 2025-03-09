@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom"
 import { NavBar } from "../navbar"
 import { Head, Logo } from "./style"
+import LanguageBtn from "../language-btn"
 
 export default function Header() {
 
@@ -11,6 +12,7 @@ export default function Header() {
             </Link> */}
             <div></div>
             <NavBar />
+            {/* <LanguageBtn /> */}
         </Head>
     )
 }
